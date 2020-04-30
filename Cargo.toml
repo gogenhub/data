@@ -1,0 +1,12 @@
+[package]
+name = "data"
+version = "0.1.0"
+authors = ["Filip <lazoviccorp@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+serde_json = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+fs_extra = "1.1.0"

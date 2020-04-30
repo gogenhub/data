@@ -1,0 +1,770 @@
+{
+	"P1_PhlF": {
+		"name": "P1_PhlF",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0398,
+		"y": 0.2286,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 3.9
+			},
+			{
+				"name": "ymin",
+				"value": 0.01
+			},
+			{
+				"name": "K",
+				"value": 0.03
+			},
+			{
+				"name": "n",
+				"value": 4.0
+			}
+		]
+	},
+	"S3_SrpR": {
+		"name": "S3_SrpR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0541,
+		"y": 0.3999,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.1
+			},
+			{
+				"name": "ymin",
+				"value": 0.004
+			},
+			{
+				"name": "K",
+				"value": 0.06
+			},
+			{
+				"name": "n",
+				"value": 2.8
+			}
+		]
+	},
+	"H1_HlyIIR": {
+		"name": "H1_HlyIIR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1092,
+		"y": 1.9526,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.5
+			},
+			{
+				"name": "ymin",
+				"value": 0.07
+			},
+			{
+				"name": "K",
+				"value": 0.19
+			},
+			{
+				"name": "n",
+				"value": 2.6
+			}
+		]
+	},
+	"Q2_QacR": {
+		"name": "Q2_QacR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1376,
+		"y": 2.0443,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.8
+			},
+			{
+				"name": "ymin",
+				"value": 0.03
+			},
+			{
+				"name": "K",
+				"value": 0.21
+			},
+			{
+				"name": "n",
+				"value": 2.4
+			}
+		]
+	},
+	"const_TetR": {
+		"name": "const_TetR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 1.0588,
+		"y": 2.7175,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 8.925729
+			},
+			{
+				"name": "ymin",
+				"value": 0.008315565
+			},
+			{
+				"name": "K",
+				"value": 0.96009725
+			},
+			{
+				"name": "n",
+				"value": 5.4184265
+			}
+		]
+	},
+	"js_QacR": {
+		"name": "js_QacR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.3345,
+		"y": 7.9876,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 12.702691
+			},
+			{
+				"name": "ymin",
+				"value": 0.09899472
+			},
+			{
+				"name": "K",
+				"value": 0.44620433
+			},
+			{
+				"name": "n",
+				"value": 1.8179977
+			}
+		]
+	},
+	"P3_PhlF": {
+		"name": "P3_PhlF",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.3118,
+		"y": 1.0365,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 6.8
+			},
+			{
+				"name": "ymin",
+				"value": 0.02
+			},
+			{
+				"name": "K",
+				"value": 0.23
+			},
+			{
+				"name": "n",
+				"value": 4.2
+			}
+		]
+	},
+	"S1_SrpR": {
+		"name": "S1_SrpR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0167,
+		"y": 0.1006,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 1.3
+			},
+			{
+				"name": "ymin",
+				"value": 0.003
+			},
+			{
+				"name": "K",
+				"value": 0.01
+			},
+			{
+				"name": "n",
+				"value": 2.9
+			}
+		]
+	},
+	"S4_SrpR": {
+		"name": "S4_SrpR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1041,
+		"y": 0.6098,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.1
+			},
+			{
+				"name": "ymin",
+				"value": 0.007
+			},
+			{
+				"name": "K",
+				"value": 0.1
+			},
+			{
+				"name": "n",
+				"value": 2.8
+			}
+		]
+	},
+	"js2_PhlF": {
+		"name": "js2_PhlF",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.4882,
+		"y": 6.0722,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 23.18196
+			},
+			{
+				"name": "ymin",
+				"value": 0.20127982
+			},
+			{
+				"name": "K",
+				"value": 0.42972034
+			},
+			{
+				"name": "n",
+				"value": 2.3297253
+			}
+		]
+	},
+	"js2_IcaRA": {
+		"name": "js2_IcaRA",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1192,
+		"y": 12.1165,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 10.87176
+			},
+			{
+				"name": "ymin",
+				"value": 0.18155695
+			},
+			{
+				"name": "K",
+				"value": 0.14354111
+			},
+			{
+				"name": "n",
+				"value": 1.0731351
+			}
+		]
+	},
+	"B1_BM3R1": {
+		"name": "B1_BM3R1",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0265,
+		"y": 0.1977,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 0.5
+			},
+			{
+				"name": "ymin",
+				"value": 0.004
+			},
+			{
+				"name": "K",
+				"value": 0.04
+			},
+			{
+				"name": "n",
+				"value": 3.4
+			}
+		]
+	},
+	"R1_PsrA": {
+		"name": "R1_PsrA",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1298,
+		"y": 3.5545,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 5.9
+			},
+			{
+				"name": "ymin",
+				"value": 0.2
+			},
+			{
+				"name": "K",
+				"value": 0.19
+			},
+			{
+				"name": "n",
+				"value": 1.8
+			}
+		]
+	},
+	"an0_AmeR": {
+		"name": "an0_AmeR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1525,
+		"y": 10.966,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 13.662453
+			},
+			{
+				"name": "ymin",
+				"value": 0.6615745
+			},
+			{
+				"name": "K",
+				"value": 0.14592311
+			},
+			{
+				"name": "n",
+				"value": 1.0583483
+			}
+		]
+	},
+	"js2_BetI": {
+		"name": "js2_BetI",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.4934,
+		"y": 10.0391,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 11.517904
+			},
+			{
+				"name": "ymin",
+				"value": 0.09894928
+			},
+			{
+				"name": "K",
+				"value": 0.92337215
+			},
+			{
+				"name": "n",
+				"value": 2.0406754
+			}
+		]
+	},
+	"S2_SrpR": {
+		"name": "S2_SrpR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0623,
+		"y": 0.4501,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.1
+			},
+			{
+				"name": "ymin",
+				"value": 0.003
+			},
+			{
+				"name": "K",
+				"value": 0.04
+			},
+			{
+				"name": "n",
+				"value": 2.6
+			}
+		]
+	},
+	"B2_BM3R1": {
+		"name": "B2_BM3R1",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0412,
+		"y": 0.6599,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 0.5
+			},
+			{
+				"name": "ymin",
+				"value": 0.005
+			},
+			{
+				"name": "K",
+				"value": 0.15
+			},
+			{
+				"name": "n",
+				"value": 2.9
+			}
+		]
+	},
+	"js2_AmtR": {
+		"name": "js2_AmtR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1234,
+		"y": 5.0944,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 14.8446245
+			},
+			{
+				"name": "ymin",
+				"value": 0.11756945
+			},
+			{
+				"name": "K",
+				"value": 0.064508624
+			},
+			{
+				"name": "n",
+				"value": 1.0837578
+			}
+		]
+	},
+	"P2_PhlF": {
+		"name": "P2_PhlF",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1742,
+		"y": 0.6494,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 4.1
+			},
+			{
+				"name": "ymin",
+				"value": 0.02
+			},
+			{
+				"name": "K",
+				"value": 0.13
+			},
+			{
+				"name": "n",
+				"value": 3.9
+			}
+		]
+	},
+	"I1_IcaRA": {
+		"name": "I1_IcaRA",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0591,
+		"y": 2.8061,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.2
+			},
+			{
+				"name": "ymin",
+				"value": 0.08
+			},
+			{
+				"name": "K",
+				"value": 0.1
+			},
+			{
+				"name": "n",
+				"value": 1.4
+			}
+		]
+	},
+	"F1_AmeR": {
+		"name": "F1_AmeR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0891,
+		"y": 2.5193,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 3.8
+			},
+			{
+				"name": "ymin",
+				"value": 0.2
+			},
+			{
+				"name": "K",
+				"value": 0.09
+			},
+			{
+				"name": "n",
+				"value": 1.4
+			}
+		]
+	},
+	"js2_LitR": {
+		"name": "js2_LitR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0975,
+		"y": 9.0471,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 23.903784
+			},
+			{
+				"name": "ymin",
+				"value": 0.12850182
+			},
+			{
+				"name": "K",
+				"value": 0.033230003
+			},
+			{
+				"name": "n",
+				"value": 1.0459112
+			}
+		]
+	},
+	"A1_AmtR": {
+		"name": "A1_AmtR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0485,
+		"y": 3.4374,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 3.8
+			},
+			{
+				"name": "ymin",
+				"value": 0.06
+			},
+			{
+				"name": "K",
+				"value": 0.07
+			},
+			{
+				"name": "n",
+				"value": 1.6
+			}
+		]
+	},
+	"L1_LitR": {
+		"name": "L1_LitR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0383,
+		"y": 1.5186,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 4.3
+			},
+			{
+				"name": "ymin",
+				"value": 0.07
+			},
+			{
+				"name": "K",
+				"value": 0.05
+			},
+			{
+				"name": "n",
+				"value": 1.7
+			}
+		]
+	},
+	"js2_BM3R1": {
+		"name": "js2_BM3R1",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0815,
+		"y": 2.5667,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.416022
+			},
+			{
+				"name": "ymin",
+				"value": 0.21301645
+			},
+			{
+				"name": "K",
+				"value": 0.23055537
+			},
+			{
+				"name": "n",
+				"value": 1.5545532
+			}
+		]
+	},
+	"N1_LmrA": {
+		"name": "N1_LmrA",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0631,
+		"y": 2.5545,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.2
+			},
+			{
+				"name": "ymin",
+				"value": 0.2
+			},
+			{
+				"name": "K",
+				"value": 0.18
+			},
+			{
+				"name": "n",
+				"value": 2.1
+			}
+		]
+	},
+	"E1_BetI": {
+		"name": "E1_BetI",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1486,
+		"y": 4.7486,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 3.8
+			},
+			{
+				"name": "ymin",
+				"value": 0.07
+			},
+			{
+				"name": "K",
+				"value": 0.41
+			},
+			{
+				"name": "n",
+				"value": 2.4
+			}
+		]
+	},
+	"const_LacI": {
+		"name": "const_LacI",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.2272,
+		"y": 4.0404,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 5.2754087
+			},
+			{
+				"name": "ymin",
+				"value": 0.011691542
+			},
+			{
+				"name": "K",
+				"value": 0.21314542
+			},
+			{
+				"name": "n",
+				"value": 1.6619434
+			}
+		]
+	},
+	"js2_SrpR": {
+		"name": "js2_SrpR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1771,
+		"y": 4.8721,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 19.804829
+			},
+			{
+				"name": "ymin",
+				"value": 0.22188976
+			},
+			{
+				"name": "K",
+				"value": 0.14380413
+			},
+			{
+				"name": "n",
+				"value": 2.014746
+			}
+		]
+	},
+	"B3_BM3R1": {
+		"name": "B3_BM3R1",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.1123,
+		"y": 0.9805,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 0.8
+			},
+			{
+				"name": "ymin",
+				"value": 0.01
+			},
+			{
+				"name": "K",
+				"value": 0.26
+			},
+			{
+				"name": "n",
+				"value": 3.4
+			}
+		]
+	},
+	"Q1_QacR": {
+		"name": "Q1_QacR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.0702,
+		"y": 0.6115,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 2.4
+			},
+			{
+				"name": "ymin",
+				"value": 0.01
+			},
+			{
+				"name": "K",
+				"value": 0.05
+			},
+			{
+				"name": "n",
+				"value": 2.7
+			}
+		]
+	},
+	"js2_HlyIIR": {
+		"name": "js2_HlyIIR",
+		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
+		"x": 0.2156,
+		"y": 7.0678,
+		"params": [
+			{
+				"name": "ymax",
+				"value": 8.01467
+			},
+			{
+				"name": "ymin",
+				"value": 0.2569834
+			},
+			{
+				"name": "K",
+				"value": 0.5118261
+			},
+			{
+				"name": "n",
+				"value": 2.2411685
+			}
+		]
+	}
+}
