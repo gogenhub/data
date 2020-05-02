@@ -1,1 +1,747 @@
-{"LacI":{"kind":"Cds","name":"LacI","seq":"gtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtga"},"N1":{"kind":"Rbs","name":"N1","seq":"TACGCTATGGACTATGTTTTCTGCTATGGACTATGTTTTCACACACGAGATGCCTCG"},"M13central":{"kind":"Terminator","name":"M13central","seq":"GGCTCCTTTTGGAGCCTTTTTTTTT"},"pAmeR":{"kind":"Promoter","name":"pAmeR","seq":"TCGTCACTAGAGGGCGATAGTGACAAACTTGACAACTCATCACTTCCTAGGTATAATGCTAGC"},"ECK120029600":{"kind":"Terminator","name":"ECK120029600","seq":"TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA"},"RiboJ64":{"kind":"Ribozyme","name":"RiboJ64","seq":"AGGAGTCAATTAATGTGCTTTTAATTCTGATGAGACGGTGACGTCGAAACTCCCTCTACAAATAATTTTGTTTAA"},"F1":{"kind":"Rbs","name":"F1","seq":"CTATGGACTATGTTTTCACATACGAGGGGGATTAG"},"ElvJ":{"kind":"Ribozyme","name":"ElvJ","seq":"CTGAagCCCCATAGGGTGGTGTGTACCACCCCTGATGAGTCCAAAAGGACGAAATGGGGcctctacaaataattttgtttaa"},"pPhlF":{"kind":"Promoter","name":"pPhlF","seq":"CGACGTACGGTGGAAtctgattcgttaccaattgacATGATACGAAACGTACCGTATCGTTAAGGT"},"AmeR":{"kind":"Cds","name":"AmeR","seq":"ATGAACAAAACCATTGATCAGGTGCGTAAAGGTGATCGTAAAAGCGATCTGCCGGTTCGTCGTCGTCCGCGTCGTAGTGCCGAAGAAACCCGTCGTGATATTCTGGCAAAAGCCGAAGAACTGTTTCGTGAACGTGGTTTTAATGCAGTTGCCATTGCAGATATTGCAAGCGCACTGAATATGAGTCCGGCAAATGTGTTTAAACATTTTAGCAGCAAAAACGCACTGGTTGATGCAATTGGTTTTGGTCAGATTGGTGTTTTTGAACGTCAGATTTGTCCGCTGGATAAAAGCCATGCACCGCTGGATCGTCTGCGTCATCTGGCACGTAATCTGATGGAACAGCATCATCAGGATCATTTCAAACACATACGGGTTTTTATTCAGATCCTGATGACCGCCAAACAGGATATGAAATGTGGCGATTATTACAAAAGCGTGATTGCAAAACTGCTGGCCGAAATTATTCGTGATGGTGTTGAAGCAGGTCTGTATATTGCAACCGATATTCCGGTTCTGGCAGAAACCGTTCTGCATGCACTGACCAGCGTTATTCATCCGGTTCTGATTGCACAAGAAGATATTGGTAATCTGGCAACCCGTTGTGATCAGCTGGTTGATCTGATTGATGCAGGTCTGCGTAATCCGCTGGCAAAATAA"},"terminator_mxiE":{"kind":"Terminator","name":"terminator_mxiE","seq":"GCCCCCGGAAGATCATTCCGGGGGCTTTTTTATT"},"B2":{"kind":"Rbs","name":"B2","seq":"CTATGGACTATGTTTTTCAAAGACGAAAAACTACTAG"},"sgRNA_A3NT":{"kind":"SgRNA","name":"sgRNA_A3NT","seq":"ATAATACCATGCTCCATTTCGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTCCACAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"LmrA":{"kind":"Cds","name":"LmrA","seq":"ATGAGCTATGGTGATAGCCGTGAAAAAATTCTGAGCGCAGCAACCCGTCTGTTTCAGCTGCAGGGTTATTATGGCACCGGTCTGAATCAGATTATCAAAGAAAGCGGTGCACCGAAAGGTAGCCTGTATTATCATTTTCCGGGTGGTAAAGAACAGCTGGCAATTGAAGCAGTGAACGAAATGAAAGAATATATCCGCCAGAAAATCGCCGATTGTATGGAAGCATGTACCGATCCGGCAGAAGGTATTCAGGCATTTCTGAAAGAACTGAGCTGTCAGTTTAGCTGTACCGAAGATATTGAAGGTCTGCCGGTTGGTCTGCTGGCAGCAGAAACCAGCCTGAAAAGCGAACCGCTGCGTGAAGCATGTCATGAAGCATATAAAGAATGGGCCAGCGTGTATGAAGAAAAACTGCGTCAGACCGGTTGTAGCGAAAGCCGTGCAAAAGAAGCAAGCACCGTTGTTAATGCAATGATTGAAGGTGGTATTCTGCTGAGCCTGACCGCAAAAAATAGCACACCGCTGCTGCATATTAGCAGCTGTATTCCGGATCTGCTGAAACGTTAA"},"ECK120015440":{"kind":"Terminator","name":"ECK120015440","seq":"tccggcaattAAAAAAGCGGCTAACCACGCCGCTTTTTTtacgtctgca"},"SicA":{"kind":"Cds","name":"SicA","seq":"atggattatcaaaataatgtcagcgaagaacgtgttgcggaaatgatttgggatgccgttagtgaaggcgccacgctaaaagacgttcatgggatccctcaagatatgatggacggtttatatgctcatgcttatgagttttataaccagggacgactggatgaagctgagacgttctttcgttacttatgcatttatgatttttacaatcccgattacaccatgggactggcggcagtatgccaactgaaaaaacaatttcagaaagcatgtgacctttatgcagtagcgtttacgttacttaaaaatgattatcgccccgttttttttaccgggcagtgtcaattattaatgcgtaaggcagcaaaagccagacagtgttttgaacttgtcaatgaacgtactgaagatgagtctctgcgggcaaaagcgttggtctatctggaggcgctaaaaacggcggagacagagcagcacagtgaacaagaaaaggaataa"},"RiboH24":{"kind":"Ribozyme","name":"RiboH24","seq":"AGCTTCGTTACCACAAGCTGATGAGATCCAAAAAGATCGAAACCTATTAGGTCCTTGTGTACTGAAGCCCTCTACAAATAATTTTGTTTAA"},"RiboH10":{"kind":"Ribozyme","name":"RiboH10","seq":"AGTCCCGTTACCCGCAGCTGATGAGCCCCAAAAAGGGCGAAACCTATTAGGTCCTGCGGTACTGGGATcctctacaaataattttgtttaa"},"sgRNA_A5NT":{"kind":"SgRNA","name":"sgRNA_A5NT","seq":"ATAATACCCTCCGAGTGTTTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGACGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"R1":{"kind":"Rbs","name":"R1","seq":"TTTAATTCGCGGAAGCGCAGAGATAAGGGGTATC"},"terminator_TetR":{"kind":"Terminator","name":"terminator_TetR","seq":"CTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC"},"P1":{"kind":"Rbs","name":"P1","seq":"CTATGGACTATGTTTGAAAGGGAGAAATACTAG"},"Q2":{"kind":"Rbs","name":"Q2","seq":"GCCATGCCATTGGCTTTTGATAGAGGACAACTACTAG"},"S3":{"kind":"Rbs","name":"S3","seq":"GAGTCTATGGACTATGTTTTCACAAAGGAAGTACCAGG"},"A1":{"kind":"Rbs","name":"A1","seq":"AATGTTCCCTAATAATCAGCAAAGAGGTTACTAG"},"F_scar":{"kind":"Scar","name":"F_scar","seq":"CGCT"},"pconst":{"kind":"Promoter","name":"pconst","seq":"GATAAGTCCCTAACTTTTACAGCTAGCTCAGTCCTAGGTATTATGCTAGC"},"sgRNA_A5T":{"kind":"SgRNA","name":"sgRNA_A5T","seq":"TTTACACCAAAACACTCGGAGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGACGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"I1":{"kind":"Rbs","name":"I1","seq":"ATTGCTATGGACTATGTTTCAAAGTGAGAATACTAG"},"E-scar":{"kind":"Scar","name":"E-scar","seq":"GCTT"},"P-scar":{"kind":"Scar","name":"P-scar","seq":"CCTA"},"E1":{"kind":"Rbs","name":"E1","seq":"CCCCCCGAGGAGTAGCAC"},"hismins":{"kind":"Terminator","name":"hismins","seq":"GCCCCCGGAAGATCATTCCGGGGGCTTTTTTATT"},"pSicA":{"kind":"Promoter","name":"pSicA","seq":"ccacaagaaacgaggtacggcattgagccgcgtaaggcagtagcgatgtattcattgggcgttttttgaatgttcactaaccaccgtcggggtttaataactgca"},"R-scar":{"kind":"Scar","name":"R-scar","seq":"GTAA"},"exsA":{"kind":"Cds","name":"exsA","seq":"atgcaaggagccaaatctcttggccgaaagcagataacgtcttgtcattggaacattccaactttcgaatacagggtaaacaaggaagagggcgtatatgttctgctcgagggcgaactgaccgtccaggacatcgattccactttttgcctggcgcctggcgagttgcttttcgtccgccgcggaagctatgtcgtaagtaccaagggaaaggacagccgaatactctggattccattatctgcccagtttctacaaggcttcgtccagcgcttcggcgcgctgttgagtgaagtcgagcgttgcgacgagcccgtgccgggcatcatcgcgttcgctgccacgcctctgctggccggttgcgtcaaggggttgaaggaattgcttgtgcatgagcatccgccgatgctcgcctgcctgaagatcgaggagttgctgatgctcttcgcgttcagtccgcaggggccgctgctgatgtcggtcctgcggcaactgagcaaccggcatgtcgagcgtctgcagctattcatggagaagcactacctcaacgagtggaagctgtccgacttctcccgcgagttcggcatggggctgaccaccttcaagga"},"pA5":{"kind":"Promoter","name":"pA5","seq":"GCGGATGGCGCCACGACTTATTTACACCAAAACACTCGGAGGGTATTATGCTAGC"},"sgRNA_A2NT":{"kind":"SgRNA","name":"sgRNA_A2NT","seq":"ATAATACCCGTGTGACCCGTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"Y_scar":{"kind":"Scar","name":"Y_scar","seq":"ATTG"},"RBSforExsDA":{"kind":"Rbs","name":"RBSforExsDA","seq":"acatatataaagcgcgcaatgtagtgaggaagccaaggcagaga"},"U_scar":{"kind":"Scar","name":"U_scar","seq":"GGGC"},"pPsrA":{"kind":"Promoter","name":"pPsrA","seq":"TGATCGAACGCTTCAAGGAACAAACGTTTGAttgacagctagctcagtcctaggtagagtgctagc"},"sgRNA_A2T":{"kind":"SgRNA","name":"sgRNA_A2T","seq":"TTTACACCAACGGGTCACACGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"P2":{"kind":"Rbs","name":"P2","seq":"GGAGCTATGGACTATGTTTGAAAGGCTGAAATACTAG"},"RiboJ51":{"kind":"Ribozyme","name":"RiboJ51","seq":"CTGAAGTAGTCACCGGCTGTGCTTGCCGGTCTGATGAGCCTGTGAAGGCGAAACTACCTCTACAAATAATTTTGTTTAA"},"ExsC":{"kind":"Cds","name":"ExsC","seq":"atggatttaacgagcaaggtcaaccgactgcttgccgagttcgcaggccgtatcggtttgccttccctgtccctcgacgaggagggcatggcgagcctcctgttcgacgaacaggtgggcgtcaccctgttgctgctcgccgagcgcgagcgtctgttgctggaggccgatgtggcgggcatcgatgtgctgggcgaggggatctttcgccagctcgccagcttcaaccgccattggcaccgtttcgatctgcatttcggcttcgacgagctgaccggcaaggtccagttgtatgcgcagattctcgcagcgcaactgaccctcgaatgcttcgaggcgaccttggccaatctgctcgatcacgccgagttctggcagcgcctgctgccgtgcgacagtgatcgcgaggcggtcgctgcggtcggcatgagggtttga"},"TetR":{"kind":"Cds","name":"TetR","seq":"atgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtcctaa"},"ECK120033737":{"kind":"Terminator","name":"ECK120033737","seq":"ggaaacacagAAAAAAGCCCGCACCTGACAGTGCGGGCTTTTTTTTTcgaccaaagg"},"X_scar":{"kind":"Scar","name":"X_scar","seq":"TGTC"},"sgRNA_A1NT":{"kind":"SgRNA","name":"sgRNA_A1NT","seq":"ATAATACCTAGGACTGAGCTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGATTGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"HlyIIR":{"kind":"Cds","name":"HlyIIR","seq":"ATGAAATACATCCTGTTTGAGGTGTGCGAAATGGGTAAAAGCCGTGAACAGACCATGGAAAATATTCTGAAAGCAGCCAAAAAGAAATTCGGCGAACGTGGTTATGAAGGCACCAGCATTCAAGAAATTACCAAAGAAGCCAAAGTTAACGTTGCAATGGCCAGCTATTACTTTAATGGCAAAGAGAACCTGTACTACGAGGTGTTCAAAAAATACGGTCTGGCAAATGAACTGCCGAACTTTCTGGAAAAAAACCAGTTTAATCCGATTAATGCCCTGCGTGAATATCTGACCGTTTTTACCACCCACATTAAAGAAAATCCGGAAATTGGCACCCTGGCCTATGAAGAAATTATCAAAGAAAGCGCACGCCTGGAAAAAATCAAACCGTATTTTATCGGCAGCTTCGAACAGCTGAAAGAAATTCTGCAAGAGGGTGAAAAACAGGGTGTGTTTCACTTTTTTAGCATCAACCATACCATCCATTGGATTACCAGCATTGTTCTGTTTCCGAAATTCAAAAAATTCATCGATAGCCTGGGTCCGAATGAAACCAATGATACCAATCATGAATGGATGCCGGAAGATCTGGTTAGCCGTATTATTAGCGCACTGACCGATAAACCGAACATTTAA"},"G_scar":{"kind":"Scar","name":"G_scar","seq":"ATAG"},"PlmJ":{"kind":"Ribozyme","name":"PlmJ","seq":"CTGAAGTCATAAGTCTGGGCTAAGCCCACTGATGAGTCGCTGAAATGCGACGAAACTTATGACCTCTACAAATAATTTTGTTTAA"},"RiboH11":{"kind":"Ribozyme","name":"RiboH11","seq":"AGCCGCGTTACCAGCAGCTGATGAGCACCAAAAAGTGCGAAACCTATTAGGTCCTGCTGTACTGCGGTcctctacaaataattttgtttaa"},"SarJ":{"kind":"Ribozyme","name":"SarJ","seq":"CTGAGACTGTCGCCGGATGTGTATCCGACCTGACGATGGCCCAAAAGGGCCGAAACAGTCCTCTACAAATAATTTTGTTTAA"},"Q_scar":{"kind":"Scar","name":"Q_scar","seq":"GAGT"},"L3S2P24":{"kind":"Terminator","name":"L3S2P24","seq":"CTCGGTACCAAATTCCAGAAAAGACACCCGAAAGGGTGTTTTTTCGTTTTGGTCC"},"ExsDA":{"kind":"Cds","name":"ExsDA","seq":"atggagcaggaggacgataagcagtactcccgagaagcggtgttcgctggcaggcgggtatccgtggtgggctcggacgcccgctcgcggggtcgggtgccgggttacgcatcgagcagtttgtatcgtgagtccggaatcatcagtgcgcggcaactggcgttgctgcagcggatgctgccgcgcctgcggctggagcaactgttccgctgcgagtggttgcagcagcgcctggcgcgcggcctggcgctggggcgcgaagaggtgcggcagattctcctctgcgcggcgcaggacgacgacggctggtgctccgaactgggcgaccgggtcaacctcgccgtgccgcagtcgatgatcgactgggtcctgctgccggtctatggctggtgggaaagcctgctcgaccaggcgatccccggctggcgcctgtcgctggtggagctggaaacccagtcccggcaactgcgagtcaagtccgaattctggtcccgcgtggccgagctggagccggagcaggcccgcgaggaactggccagggtcgccaagtgccaggcgcgcacccaggaacaggtggccgaactggccggcaagctggagacggcttcggcactggcgaagagcgcctggccgaactggcagcggggcatggcgacgctgctcgccagcggcgggctggccggcttcgagccgatccccgaggtcctcgaatgcctctggcaacctctctgccggctggacgacgacgtcggcgcggcggacgccgtccaggcctggctgcacgaacgcaacctgtgccaggcacaggatcacttctactggcagagctgagcattcaaggtacgacgggaagtgttggggttcttataatatgcaaggagccaaatctcttggccgaaagcagataacgtcttgtcattggaacattccaactttcgaatacagggtaaacaaggaagagggcgtatatgttctgctcgagggcgaactgaccgtccaggacatcgattccactttttgcctggcgcctggcgagttgcttttcgtccgccgcggaagctatgtcgtaagtaccaagggaaaggacagccgaatactctggattccattatctgcccagtttctacaaggcttcgtccagcgcttcggcgcgctgttgagtgaagtcgagcgttgcgacgagcccgtgccgggcatcatcgcgttcgctgccacgcctctgctggccggttgcgtcaaggggttgaaggaattgcttgtgcatgagcatccgccgatgctcgcctgcctgaagatcgaggagttgctgatgctcttcgcgttcagtccgcaggggccgctgctgatgtcggtcctgcggcaactgagcaaccggcatgtcgagcgtctgcagctattcatggagaagcactacctcaacgagtggaagctgtccgacttctcccgcgagttcggcatggggctgaccaccttcaaggagctgttcggcagtgtctatggggtttcgccgcgcgcctggatcagcgagcggagaatcctctatgcccatcagttgctgctcaacagcgacatgagcatcgtcgacatcgccatggaggcgggcttttccagtcagtcctatttcacccagagctatcgccgccgtttcggctgcacgccgagccgctcgcggcaggggaaggacgaatgccgggctaaaaataactga"},"G-scar":{"kind":"Scar","name":"G-scar","seq":"ATAG"},"RBSforSicA":{"kind":"Rbs","name":"RBSforSicA","seq":"ttgggctagcgaattcgagctcggtacctcacacaggaaaggcctcg"},"V_scar":{"kind":"Scar","name":"V_scar","seq":"TCTG"},"RiboJ60":{"kind":"Ribozyme","name":"RiboJ60","seq":"CTGAAGTCGTCAAGTGCTGTGCTTGCACTTCTGATGAGGCAGTGATGCCGAAACGACCTCTACAAATAATTTTGTTTAA"},"C_scar":{"kind":"Scar","name":"C_scar","seq":"AATG"},"SrpR":{"kind":"Cds","name":"SrpR","seq":"ATGGCACGTAAAACCGCAGCAGAAGCAGAAGAAACCCGTCAGCGTATTATTGATGCAGCACTGGAAGTTTTTGTTGCACAGGGTGTTAGTGATGCAACCCTGGATCAGATTGCACGTAAAGCCGGTGTTACCCGTGGTGCAGTTTATTGGCATTTTAATGGTAAACTGGAAGTTCTGCAGGCAGTTCTGGCAAGCCGTCAGCATCCGCTGGAACTGGATTTTACACCGGATCTGGGTATTGAACGTAGCTGGGAAGCAGTTGTTGTTGCAATGCTGGATGCAGTTCATAGTCCGCAGAGCAAACAGTTTAGCGAAATTCTGATTTATCAGGGTCTGGATGAAAGCGGTCTGATTCATAATCGTATGGTTCAGGCAAGCGATCGTTTTCTGCAGTATATTCATCAGGTTCTGCGTCATGCAGTTACCCAGGGTGAACTGCCGATTAATCTGGATCTGCAGACCAGCATTGGTGTTTTTAAAGGTCTGATTACCGGTCTGCTGTATGAAGGTCTGCGTAGCAAAGATCAGCAGGCACAGATTATCAAAGTTGCACTGGGTAGCTTTTGGGCACTGCTGCGTGAACCGCCTCGTTTTCTGCTGTGTGAAGAAGCACAGATTAAACAGGTGAAATCCTTCGAATAA"},"BBa_B1006_U10":{"kind":"Terminator","name":"BBa_B1006_U10","seq":"AAAAAAAAACCCCGCCCCTGACAGGGCGGGGTTTTTTTTTT"},"L3S2P21":{"kind":"Terminator","name":"L3S2P21","seq":"CTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC"},"terminator_LacI":{"kind":"Terminator","name":"terminator_LacI","seq":"CTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC"},"D-scar":{"kind":"Scar","name":"D-scar","seq":"AGGT"},"RBSforExsC":{"kind":"Rbs","name":"RBSforExsC","seq":"tactagagtcagaattcgctttaggaggcgccccc"},"pA4":{"kind":"Promoter","name":"pA4","seq":"GAAGGCTCAGGATGCACAGGTTTACACCTCCACAACTAGCTGGTATTATGCTAGC"},"B1":{"kind":"Rbs","name":"B1","seq":"CTATGGACTATGTTTTAACTACTAG"},"A-scar":{"kind":"Scar","name":"A-scar","seq":"GGAG"},"L3S3P31":{"kind":"Terminator","name":"L3S3P31","seq":"CCAATTATTGAACACCCTAACGGGTGTTTTTTTTTTTTTGGTCTACC"},"rbs_mxiE":{"kind":"Rbs","name":"rbs_mxiE","seq":"cctaactggagtagatggg"},"ECK120016170":{"kind":"Terminator","name":"ECK120016170","seq":"ACAATTTTCGAAAAAACCCGCTTCGGCGGGTTTTTTTATAGCTAAAA"},"ECK120010876":{"kind":"Terminator","name":"ECK120010876","seq":"taaggttgaaAAATAAAAACGGCGCTAAAAAGCGCCGTTTTTTTTgacggtggta"},"A_scar":{"kind":"Scar","name":"A_scar","seq":"GGAG"},"L1":{"kind":"Rbs","name":"L1","seq":"GTCCTATGGACTTTTTCATACAGGAGAACCCTCG"},"L3S3P11":{"kind":"Terminator","name":"L3S3P11","seq":"CCAATTATTGAACACCCTTCGGGGTGTTTTTTTGTTTCTGGTCTACC"},"O-scar":{"kind":"Scar","name":"O-scar","seq":"ATGC"},"P3":{"kind":"Rbs","name":"P3","seq":"CTTTACGAGGGCGATCCT"},"mxiE":{"kind":"Cds","name":"mxiE","seq":"atgagtaaatataaaggcctgaacaccagcaacatgttctacatctacagctctggtcatgaaccggtgaacgttgaactggtgaaagataaagaacgtaacatcatcgaactggcaccggcgtggaaaggctttttctttgtgcgtaaccagaacatcaaattcagcgataacgttaactaccactaccgcttcaacatcaactcttgcgcaaaattcctggcgttttgggattattttagcggcgccctggttgaacattctcacgcagaaaaatgcatccatttctaccacgaaaacgatctgcgtgatagctgtaatacggaatctatgctggataaactgatgctgcgcttcatttttagtagcgatcagaacgtgtctaatgccctggcaatgatccgtatgaccgaaagttatcatctggttctgtacctgctgcgtacgattgaaaaagaaaaagaagtgcgcatcaaaagcctgaccgaacactatggcgtttctgaagcgtactttcgtagtctgtgtcgcaaagcgctgggtgccaaagtgaaagaacagctgaacacgtggcgcctggtgaatggcctgctggatgttttcctgcataaccagaccattacgagcgcggccatgaacaatggttatgcgtctaccagtcacttcagcaatgaaattaaaacgcgtctgggctttagtgcccgcgaactgagcaacatcaccttcctggtgaagaaaattaatgaaaaaatctaa"},"rbs_exsA":{"kind":"Rbs","name":"rbs_exsA","seq":"acatatataaagcgcgcaatgtagtgaggaagccaaggcagaga"},"sgRNA_A4NT":{"kind":"SgRNA","name":"sgRNA_A4NT","seq":"ATAATACCAGCTAGTTGTGGGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGCTTCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"LitR":{"kind":"Cds","name":"LitR","seq":"ATGGATACCATTCAGAAACGTCCGCGTACCCGTCTGAGTCCGGAAAAACGTAAAGAACAGCTGCTGGATATTGCCATTGAAGTTTTTAGCCAGCGTGGTATTGGTCGTGGTGGTCATGCAGATATTGCAGAAATTGCACAGGTTAGCGTTGCAACCGTGTTTAACTATTTTCCGACCCGTGAAGATCTGGTTGATGATGTTCTGAACAAAGTGGAAAACGAGTTTCACCAGTTCATCAATAACAGCATTAGCCTGGATCTGGATGTTCGTAGCAATCTGAATACCCTGCTGCTGAACATTATTGATAGCGTTCAGACCGGCAACAAATGGATTAAAGTTTGGTTTGAATGGTCAACCAGCACCCGTGATGAAGTTTGGCCTCTGTTTCTGAGCACCCATAGCAATACCAATCAGGTGATCAAAACCATGTTTGAAGAGGGTATTGAACGCAATGAAGTGTGCAATGATCATACACCGGAAAATCTGACCAAAATGCTGCATGGTATTTGCTATAGCGTGTTTATTCAGGCCAATCGTAATAGCAGCAGCGAAGAAATGGAAGAAACCGCAAATTGCTTTCTGAATATGCTGTGCATCTACAAATAA"},"sgRNA_A3T":{"kind":"SgRNA","name":"sgRNA_A3T","seq":"TTTACACCCGAAATGGAGCAGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTCCACAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"pBM3R1":{"kind":"Promoter","name":"pBM3R1","seq":"AATCCGCGTGATAGGTCTGATTCGTTACCAATTGACGGAATGAACGTTCATTCCGATAATGCTAGC"},"terminator_exsDA":{"kind":"Terminator","name":"terminator_exsDA","seq":"TAGAGATCAAGCCTTAACGAACTAAGACCCCCGCACCGAAAGGTCCGGGGGTTTTTTTTGACCTTAAAAACATAACCGAGGAGCAGACA"},"sgRNA_A1T":{"kind":"SgRNA","name":"sgRNA_A1T","seq":"TTTACACCTAGCTCAGTCCTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGATTGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"pA2":{"kind":"Promoter","name":"pA2","seq":"GATAGGAAGCAGGAATAGTTTTTACACCAACGGGTCACACGGGTATTATGCTAGC"},"H1":{"kind":"Rbs","name":"H1","seq":"ACCCCCGAG"},"pA3":{"kind":"Promoter","name":"pA3","seq":"TCCGAATGACATGCGTCTCCTTTACACCCGAAATGGAGCATGGTATTATGCTAGC"},"sgRNA_A4T":{"kind":"SgRNA","name":"sgRNA_A4T","seq":"TTTACACCTCCACAACTAGCGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGCTTCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"},"E_scar":{"kind":"Scar","name":"E_scar","seq":"GCTT"},"S1":{"kind":"Rbs","name":"S1","seq":"GAGTCTATGGACTATGTTTTCACAGAGGAGGTACCAGG"},"C-scar":{"kind":"Scar","name":"C-scar","seq":"AATG"},"pExsC":{"kind":"Promoter","name":"pExsC","seq":"gatgtggcttttttcttaaaagaaaagtctctcagtgacaaaagcgatgcatagcccggtgctagcatgcgctgagcttt"},"P_scar":{"kind":"Scar","name":"P_scar","seq":"CCTA"},"PsrA":{"kind":"Cds","name":"PsrA","seq":"ATGGCACAGAGCGAAACCGTTGAACGTATTCTGGATGCAGCAGAACAGCTGTTTGCAGAACGTGGTTTTGCAGAAACCAGCCTGCGTCTGATTACCAGCAAAGCCGGTGTTAATCTGGCAGCAGTGAATTATCATTTTGGCAGCAAAAAAGCACTGATTCAGGCAGTTTTTAGCCGTTTTCTGGGTCCGTTTTGTGCAAGCCTGGAACGTGAACTGGAACGTCGTCAGGCACGTCCGGAACAGAAACCGAGCCTGGAAGAACTGCTGGAAATGCTGGTTGAACAGGCACTGGCAGTTCAGCCTCGTAGCAATAATGATCTGAGCATTTTTATGTGTCTGCTGGGTCTGGCATTTAGCCAGAGCCAGGGTCATCTGCGTCGTTATCTGGAAGATATGTATGGTAAAGTGTTCCGTCGTTATATGCTGCTGGTTAATGAAGCAGCACCGCGTGTTCCGCCTCTGGAACTGTTTTGGCGTGTTCATTTTATGCTGGGTGCAGCAGCATTTAGCATGAGCGGTATTAAAGCACTGCGTGCAATTGCAGAAACCGATTTTGGTATTAACACCAGCATTGAACAGGTTATGCGTCTGATGGTTCCGTTTCTGGCAGCAGGTATGCGTGCAGATAGCGGTGTTACCGATGAAGCAATGGCAGCAGCACAGCTGCGTCCGCGTAGCAAAACCAGCACCAGCGCAACCACCGCAAAAGCATAA"},"AmtR":{"kind":"Cds","name":"AmtR","seq":"ATGGCAGGCGCAGTTGGTCGTCCGCGTCGTAGTGCACCGCGTCGTGCAGGTAAAAATCCGCGTGAAGAAATTCTGGATGCAAGCGCAGAACTGTTTACCCGTCAGGGTTTTGCAACCACCAGTACCCATCAGATTGCAGATGCAGTTGGTATTCGTCAGGCAAGCCTGTATTATCATTTTCCGAGCAAAACCGAAATCTTTCTGACCCTGCTGAAAAGCACCGTTGAACCGAGCACCGTTCTGGCAGAAGATCTGAGCACCCTGGATGCAGGTCCGGAAATGCGTCTGTGGGCAATTGTTGCAAGCGAAGTTCGTCTGCTGCTGAGCACCAAATGGAATGTTGGTCGTCTGTATCAGCTGCCGATTGTTGGTAGCGAAGAATTTGCAGAATATCATAGCCAGCGTGAAGCACTGACCAATGTTTTTCGTGATCTGGCAACCGAAATTGTTGGTGATGATCCGCGTGCAGAACTGCCGTTTCATATTACCATGAGCGTTATTGAAATGCGTCGCAATGATGGTAAAATTCCGAGTCCGCTGAGCGCAGATAGCCTGCCGGAAACCGCAATTATGCTGGCAGATGCAAGCCTGGCAGTTCTGGGTGCACCGCTGCCTGCAGATCGTGTTGAAAAAACCCTGGAACTGATTAAACAGGCAGATGCAAAATAA"},"rbs_TetR":{"kind":"Rbs","name":"rbs_TetR","seq":"aaagaggagaaa"},"F-scar":{"kind":"Scar","name":"F-scar","seq":"CGCT"},"Q1":{"kind":"Rbs","name":"Q1","seq":"GTAAGCCATGCCATTGGCTTTTGATAGAGGATAACTACTAG"},"ilvGEDA":{"kind":"Terminator","name":"ilvGEDA","seq":"TAGAGATCAAGCCTTAACGAACTAAGACCCCCGCACCGAAAGGTCCGGGGGTTTTTTTTGACCTTAAAAACATAACCGAGGAGCAGACA"},"pIcaRA":{"kind":"Promoter","name":"pIcaRA","seq":"GTCAACTCATAAGATtctgattcgttaccaattgacaaTTCACCTACCTTTCGTTAGgTTAGGTTGT"},"pBetI":{"kind":"Promoter","name":"pBetI","seq":"AGCGCGGGTGAGAGGGATTCGTTACCAATTGACAATTGATTGGACGTTCAATATAATGCTAGC"},"pSrpR":{"kind":"Promoter","name":"pSrpR","seq":"TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAAC"},"pTet":{"kind":"Promoter","name":"pTet","seq":"TACTCCACCGTTGGCTTTTTTCCCTATCAGTGATAGAGATTGACATCCCTATCAGTGATAGAGATAATGAGCAC"},"pLitR":{"kind":"Promoter","name":"pLitR","seq":"CGAGCGTAGAGCTTAgattcgttaccaatTGACAAATTTATAAATTGTCAgtacagtcctagc"},"V-scar":{"kind":"Scar","name":"V-scar","seq":"TCTG"},"RiboJ54":{"kind":"Ribozyme","name":"RiboJ54","seq":"CTGAAGGGGTCAGTTGATGTGCTTTCAACTCTGATGAGTCAGTGATGACGAAACCCCCTCTACAAATAATTTTGTTTAA"},"Y-scar":{"kind":"Scar","name":"Y-scar","seq":"ATTG"},"RiboH12":{"kind":"Ribozyme","name":"RiboH12","seq":"AGGCGCGTTACCCTCAGCTGATGAGCGCCAAAAAGCGCGAAACCTATTAGGTCCTGAGGTACTGCGCTcctctacaaataattttgtttaa"},"RiboJ57":{"kind":"Ribozyme","name":"RiboJ57","seq":"CTGAAGAAGTCAATTAATGTGCTTTTAATTCTGATGAGTCGGTGACGACGAAACTTCCTCTACAAATAATTTTGTTTAA"},"L3S2P55":{"kind":"Terminator","name":"L3S2P55","seq":"CTCGGTACCAAAGACGAACAATAAGACGCTGAAAAGCGTCTTTTTTCGTTTTGGTCC"},"PhlF":{"kind":"Cds","name":"PhlF","seq":"ATGGCACGTACCCCGAGCCGTAGCAGCATTGGTAGCCTGCGTAGTCCGCATACCCATAAAGCAATTCTGACCAGCACCATTGAAATCCTGAAAGAATGTGGTTATAGCGGTCTGAGCATTGAAAGCGTTGCACGTCGTGCCGGTGCAAGCAAACCGACCATTTATCGTTGGTGGACCAATAAAGCAGCACTGATTGCCGAAGTGTATGAAAATGAAAGCGAACAGGTGCGTAAATTTCCGGATCTGGGTAGCTTTAAAGCCGATCTGGATTTTCTGCTGCGTAATCTGTGGAAAGTTTGGCGTGAAACCATTTGTGGTGAAGCATTTCGTTGTGTTATTGCAGAAGCACAGCTGGACCCTGCAACCCTGACCCAGCTGAAAGATCAGTTTATGGAACGTCGTCGTGAGATGCCGAAAAAACTGGTTGAAAATGCCATTAGCAATGGTGAACTGCCGAAAGATACCAATCGTGAACTGCTGCTGGATATGATTTTTGGTTTTTGTTGGTATCGCCTGCTGACCGAACAGCTGACCGTTGAACAGGATATTGAAGAATTTACCTTCCTGCTGATTAATGGTGTTTGTCCGGGTACACAGCGTTAA"},"pQacR":{"kind":"Promoter","name":"pQacR","seq":"ggtatggaagctatacgttaccaattgacagctagctcagtccTACTTTAGTATATAGACCGTGCGATCGGTCTATA"},"pLac":{"kind":"Promoter","name":"pLac","seq":"AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATT"},"R_scar":{"kind":"Scar","name":"R_scar","seq":"GTAA"},"D_scar":{"kind":"Scar","name":"D_scar","seq":"AGGT"},"ECK120033736":{"kind":"Terminator","name":"ECK120033736","seq":"aacgcatgagAAAGCCCCCGGAAGATCACCTTCCGGGGGCTTTtttattgcgc"},"pHlyIIR":{"kind":"Promoter","name":"pHlyIIR","seq":"ACCAGGAATCTGAACGATTCGTTACCAATTGACATATTTAAAATTCTTGTTTAAAatgctagc"},"S4":{"kind":"Rbs","name":"S4","seq":"CTATGGACTATGTTTTCACACAGGAAATACCAGG"},"IcaRA":{"kind":"Cds","name":"IcaRA","seq":"GTGAAAGACAAAATTATCGATAACGCCATCACCCTGTTTAGCGAAAAAGGTTATGACGGCACCACCCTGGATGATATTGCAAAAAGCGTGAACATCAAAAAAGCCAGCCTGTATTATCACTTTGATAGCAAAAAAAGCATCTACGAGCAGAGCGTTAAATGCTGTTTCGATTATCTGAACAACATCATCATGATGAACCAGAACAAAAGCAACTATAGCATCGATGCCCTGTATCAGTTTCTGTTTGAGTTCATCTTCGATATCGAGGAACGCTATATTCGTATGTATGTTCAGCTGAGCAACACACCGGAAGAATTTTCAGGTAACATTTATGGCCAGATCCAGGATCTGAATCAGAGCCTGAGCAAAGAAATCGCCAAATTCTATGACGAAAGCAAAATCAAAATGACCAAAGAGGACTTCCAGAATCTGATTCTGCTGTTTCTGGAAAGCTGGTATCTGAAAGCCAGCTTTAGCCAGAAATTTGGTGCAGTTGAAGAAAGCAAAAGCCAGTTTAAAGATGAGGTTTATAGCCTGCTGAACATCTTTCTGAAGAAATAA"},"pAmtR":{"kind":"Promoter","name":"pAmtR","seq":"CTTGTCCAACCAAATGATTCGTTACCAATTGACAGTTTCTATCGATCTATAGATAATGCTAGC"},"B3":{"kind":"Rbs","name":"B3","seq":"CCAAACGAGGCCGGGAGG"},"RBSforInvF":{"kind":"Rbs","name":"RBSforInvF","seq":"ggtcgagctcatcccgtcagcgttcctatggatggtacaact"},"exsD":{"kind":"Cds","name":"exsD","seq":"atggagcaggaagacgataagcagtactcccgagaagcggtgttcgctggcaggcgggtatccgtggtgggctcggacgcccgctcgcggggtcgggtgccgggttacgcatcgagcagtttgtatcgtgagtccggaatcatcagtgcgcggcaactggcgttgctgcagcggatgctgccgcgcctgcggctggagcaactgttccgctgcgagtggttgcagcagcgcctggcgcgcggcctggcgctggggcgcgaagaggtgcggcagattctcctctgcgcggcgcaggacgacgacggctggtgctccgaactgggcgaccgggtcaacctcgccgtgccgcagtcgatgatcgactgggtcctgctgccggtctatggctggtgggaaagcctgctcgaccaggcgatccccggctggcgcctgtcgctggtggagctggagacccagtcccggcaactgcgagtcaagtccgaattctggtcccgcgtggccgagctggagccggagcaggcccgcgaggaactggccagggtcgccaagtgccaggcgcgcacccaggaacaggtggccgaactggccggcaagctggagacggcttcggcactggcgaagagcgcctggccgaactggcagcggggcatggcgacgctgctcgccagcggcgggctggccggcttcgagccgatccccgaggtcctcgaatgcctctggcaacctctctgccggctggacgacgacgtcggcgcggcggacgccgtccaggcctggctgcacgaacgcaacctgtgccaggcacaggatcacttctactggcagagctga"},"RiboJ10":{"kind":"Ribozyme","name":"RiboJ10","seq":"CTGAAGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAA"},"X-scar":{"kind":"Scar","name":"X-scar","seq":"TGTC"},"B_scar":{"kind":"Scar","name":"B_scar","seq":"TACG"},"rbs_exsD":{"kind":"Rbs","name":"rbs_exsD","seq":"acatatataaagcgcgcaatgtagtgaggaagccaaggcagaga"},"ECK120019600":{"kind":"Terminator","name":"ECK120019600","seq":"TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA"},"ScmJ":{"kind":"Ribozyme","name":"ScmJ","seq":"agCGCTGTCTGTACTTGTATCAGTACACTGACGAGTCCCTAAAGGACGAAACACCGcctctacaaataattttgtttaa"},"BydvJ":{"kind":"Ribozyme","name":"BydvJ","seq":"CTGAagGGTGTCTCAAGGTGCGTACCTTGACTGATGAGTCCGAAAGGACGAAACACCcctctacaaataattttgtttaa"},"QacR":{"kind":"Cds","name":"QacR","seq":"ATGAACCTGAAAGATAAAATTCTGGGCGTTGCCAAAGAACTGTTTATCAAAAATGGCTATAACGCAACCACCACCGGTGAAATTGTTAAACTGAGCGAAAGCAGCAAAGGCAATCTGTATTATCACTTTAAAACCAAAGAGAACCTGTTTCTGGAAATCCTGAACATCGAAGAAAGCAAATGGCAAGAGCAGTGGAAAAAAGAACAAATCAAATGCAAAACCAACCGCGAGAAATTCTATCTGTATAATGAACTGAGCCTGACCACCGAATATTACTATCCGCTGCAGAATGCCATCATCGAGTTTTATACCGAGTACTATAAAACCAACAGCATCAACGAGAAAATGAACAAACTGGAAAACAAATACATCGATGCCTACCACGTGATCTTTAAAGAAGGTAATCTGAACGGCGAATGGTGCATTAATGATGTTAATGCCGTGAGCAAAATTGCAGCAAATGCCGTTAATGGCATTGTTACCTTTACCCATGAGCAGAATATCAACGAACGCATTAAACTGATGAACAAATTCAGCCAGATCTTTCTGAATGGCCTGAGCAAATAA"},"BM3R1":{"kind":"Cds","name":"BM3R1","seq":"ATGGAAAGCACCCCGACCAAACAGAAAGCAATTTTTAGCGCAAGCCTGCTGCTGTTTGCAGAACGTGGTTTTGATGCAACCACCATGCCGATGATTGCAGAAAATGCAAAAGTTGGTGCAGGCACCATTTATCGCTATTTCAAAAACAAAGAAAGCCTGGTGAACGAACTGTTTCAGCAGCATGTTAATGAATTTCTGCAGTGTATTGAAAGCGGTCTGGCAAATGAACGTGATGGTTATCGTGATGGCTTTCATCACATTTTTGAAGGTATGGTGACCTTTACCAAAAATCATCCGCGTGCACTGGGTTTTATCAAAACCCATAGCCAGGGCACCTTTCTGACCGAAGAAAGCCGTCTGGCATATCAGAAACTGGTTGAATTTGTGTGCACCTTTTTTCGTGAAGGTCAGAAACAGGGTGTGATTCGTAATCTGCCGGAAAATGCACTGATTGCAATTCTGTTTGGCAGCTTTATGGAAGTGTATGAAATGATCGAGAACGATTATCTGAGCCTGACCGATGAACTGCTGACCGGTGTTGAAGAAAGCCTGTGGGCAGCACTGAGCCGTCAGAGCTAA"},"RiboJ53":{"kind":"Ribozyme","name":"RiboJ53","seq":"CTGAAGCGGTCAACGCATGTGCTTTGCGTTCTGATGAGACAGTGATGTCGAAACCGCCTCTACAAATAATTTTGTTTAA"},"S2":{"kind":"Rbs","name":"S2","seq":"GAGTCTATGGACTATGTTTTCACATATGAGATACCAGG"},"ECK120010818":{"kind":"Terminator","name":"ECK120010818","seq":"GTCAGTTTCACCTGTTTTACGTAAAAACCCGCTTCGGCGGGTTTTTACTTTTGG"},"O_scar":{"kind":"Scar","name":"O_scar","seq":"ATGC"},"B-scar":{"kind":"Scar","name":"B-scar","seq":"TACG"},"L3S2P11":{"kind":"Terminator","name":"L3S2P11","seq":"CTCGGTACCAAATTCCAGAAAAGAGACGCTTTCGAGCGTCTTTTTTCGTTTTGGTCC"},"U-scar":{"kind":"Scar","name":"U-scar","seq":"GGGC"},"rbs_LacI":{"kind":"Rbs","name":"rbs_LacI","seq":"aaagaggagaaa"},"pA1":{"kind":"Promoter","name":"pA1","seq":"GCTCTTATCCTGCATCGAAATTTACACCTAGCTCAGTCCTAGGTATTATGCTAGC"},"Q-scar":{"kind":"Scar","name":"Q-scar","seq":"GAGT"},"pLmrA":{"kind":"Promoter","name":"pLmrA","seq":"CGCTCATTCACTAGGTCTGATTCGTTACCAATTGACAACTGGTGGTCGAATCAAGATAATAGACCAGTCACTATATTT"},"BetI":{"kind":"Cds","name":"BetI","seq":"ATGCCGAAACTGGGTATGCAGAGCATTCGTCGTCGTCAGCTGATTGATGCAACCCTGGAAGCAATTAATGAAGTTGGTATGCATGATGCAACCATTGCACAGATTGCACGTCGTGCCGGTGTTAGCACCGGTATTATTAGCCATTATTTCCGCGATAAAAACGGTCTGCTGGAAGCAACCATGCGTGATATTACCAGCCAGCTGCGTGATGCAGTTCTGAATCGTCTGCATGCACTGCCGCAGGGTAGCGCAGAACAGCGTCTGCAGGCAATTGTTGGTGGTAATTTTGATGAAACCCAGGTTAGCAGCGCAGCAATGAAAGCATGGCTGGCATTTTGGGCAAGCAGCATGCATCAGCCGATGCTGTATCGTCTGCAGCAGGTTAGCAGTCGTCGTCTGCTGAGCAATCTGGTTAGCGAATTTCGTCGTGAACTGCCTCGTGAACAGGCACAAGAGGCAGGTTATGGTCTGGCAGCACTGATTGATGGTCTGTGGCTGCGTGCAGCACTGAGCGGTAAACCGCTGGATAAAACCCGTGCAAATAGCCTGACCCGTCATTTTATCACCCAGCATCTGCCGACCGATTAA"},"InvF":{"kind":"Cds","name":"InvF","seq":"atgctaaatacgcaggaagtacttaaagaaggagagaagcggaaaatccgcagcccggaagcatggtttatacagacgtgttccgcgcaaaagctgcatatgtcattttctgaaagccgacacaatgaaaattgcctgattcaggaaggcgcgctgcttttttgcgagcaggccgttgtcgcaccagtatcaggcgacctggtttttcgaccgttaaaaattgaagtactcagcaaattactggcatttatcgatggcgcaggattagtggacacgacatatgctgaatccgataaatgggttttgctgagtcctgagtttcgcgctatttggcaagatcgtaaacgctgcgagtactggtttttgcagcaaattattacgccttctccggccttcaataaggtactggcgctgttacgaaaaagcgagagttactggttggttggctatttactcgctcagtcaaccagcggcaacacgatgagaatgctgggagaggactatggcgtttcttatacccattttcgtcgtttgtgcagcagagcgttgggcggaaaagcgaagagtgaattacgaaactggcgtatggcgcaatcgctgctgaatagtgtagaaggccacgagaacatcacccaattagccgttaatcatggttactcatcgccttcacatttttctagtgagatcaaagagctgatcggcgtttcgccgcggaaattatcaaatattattcaattggcagacaaatga"}}
+{
+	"pPhlF": {
+		"kind": "Promoter",
+		"name": "pPhlF",
+		"seq": "CGACGTACGGTGGAAtctgattcgttaccaattgacATGATACGAAACGTACCGTATCGTTAAGGT"
+	},
+	"pSrpR": {
+		"kind": "Promoter",
+		"name": "pSrpR",
+		"seq": "TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAAC"
+	},
+	"pBM3R1": {
+		"kind": "Promoter",
+		"name": "pBM3R1",
+		"seq": "AATCCGCGTGATAGGTCTGATTCGTTACCAATTGACGGAATGAACGTTCATTCCGATAATGCTAGC"
+	},
+	"pQacR": {
+		"kind": "Promoter",
+		"name": "pQacR",
+		"seq": "ggtatggaagctatacgttaccaattgacagctagctcagtccTACTTTAGTATATAGACCGTGCGATCGGTCTATA"
+	},
+	"pAmeR": {
+		"kind": "Promoter",
+		"name": "pAmeR",
+		"seq": "TCGTCACTAGAGGGCGATAGTGACAAACTTGACAACTCATCACTTCCTAGGTATAATGCTAGC"
+	},
+	"pconst": {
+		"kind": "Promoter",
+		"name": "pconst",
+		"seq": "GATAAGTCCCTAACTTTTACAGCTAGCTCAGTCCTAGGTATTATGCTAGC"
+	},
+	"pSicA": {
+		"kind": "Promoter",
+		"name": "pSicA",
+		"seq": "ccacaagaaacgaggtacggcattgagccgcgtaaggcagtagcgatgtattcattgggcgttttttgaatgttcactaaccaccgtcggggtttaataactgca"
+	},
+	"pA5": {
+		"kind": "Promoter",
+		"name": "pA5",
+		"seq": "GCGGATGGCGCCACGACTTATTTACACCAAAACACTCGGAGGGTATTATGCTAGC"
+	},
+	"pPsrA": {
+		"kind": "Promoter",
+		"name": "pPsrA",
+		"seq": "TGATCGAACGCTTCAAGGAACAAACGTTTGAttgacagctagctcagtcctaggtagagtgctagc"
+	},
+	"pA4": {
+		"kind": "Promoter",
+		"name": "pA4",
+		"seq": "GAAGGCTCAGGATGCACAGGTTTACACCTCCACAACTAGCTGGTATTATGCTAGC"
+	},
+	"pA2": {
+		"kind": "Promoter",
+		"name": "pA2",
+		"seq": "GATAGGAAGCAGGAATAGTTTTTACACCAACGGGTCACACGGGTATTATGCTAGC"
+	},
+	"pA3": {
+		"kind": "Promoter",
+		"name": "pA3",
+		"seq": "TCCGAATGACATGCGTCTCCTTTACACCCGAAATGGAGCATGGTATTATGCTAGC"
+	},
+	"pExsC": {
+		"kind": "Promoter",
+		"name": "pExsC",
+		"seq": "gatgtggcttttttcttaaaagaaaagtctctcagtgacaaaagcgatgcatagcccggtgctagcatgcgctgagcttt"
+	},
+	"pIcaRA": {
+		"kind": "Promoter",
+		"name": "pIcaRA",
+		"seq": "GTCAACTCATAAGATtctgattcgttaccaattgacaaTTCACCTACCTTTCGTTAGgTTAGGTTGT"
+	},
+	"pBetI": {
+		"kind": "Promoter",
+		"name": "pBetI",
+		"seq": "AGCGCGGGTGAGAGGGATTCGTTACCAATTGACAATTGATTGGACGTTCAATATAATGCTAGC"
+	},
+	"pLitR": {
+		"kind": "Promoter",
+		"name": "pLitR",
+		"seq": "CGAGCGTAGAGCTTAgattcgttaccaatTGACAAATTTATAAATTGTCAgtacagtcctagc"
+	},
+	"pLac": {
+		"kind": "Promoter",
+		"name": "pLac",
+		"seq": "AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATT"
+	},
+	"pHlyIIR": {
+		"kind": "Promoter",
+		"name": "pHlyIIR",
+		"seq": "ACCAGGAATCTGAACGATTCGTTACCAATTGACATATTTAAAATTCTTGTTTAAAatgctagc"
+	},
+	"pAmtR": {
+		"kind": "Promoter",
+		"name": "pAmtR",
+		"seq": "CTTGTCCAACCAAATGATTCGTTACCAATTGACAGTTTCTATCGATCTATAGATAATGCTAGC"
+	},
+	"pA1": {
+		"kind": "Promoter",
+		"name": "pA1",
+		"seq": "GCTCTTATCCTGCATCGAAATTTACACCTAGCTCAGTCCTAGGTATTATGCTAGC"
+	},
+	"pLmrA": {
+		"kind": "Promoter",
+		"name": "pLmrA",
+		"seq": "CGCTCATTCACTAGGTCTGATTCGTTACCAATTGACAACTGGTGGTCGAATCAAGATAATAGACCAGTCACTATATTT"
+	},
+	"LacI": {
+		"kind": "Cds",
+		"name": "LacI",
+		"seq": "gtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtga"
+	},
+	"N1": {
+		"kind": "Rbs",
+		"name": "N1",
+		"seq": "TACGCTATGGACTATGTTTTCTGCTATGGACTATGTTTTCACACACGAGATGCCTCG"
+	},
+	"M13central": {
+		"kind": "Terminator",
+		"name": "M13central",
+		"seq": "GGCTCCTTTTGGAGCCTTTTTTTTT"
+	},
+	"ECK120029600": {
+		"kind": "Terminator",
+		"name": "ECK120029600",
+		"seq": "TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA"
+	},
+	"RiboJ64": {
+		"kind": "Ribozyme",
+		"name": "RiboJ64",
+		"seq": "AGGAGTCAATTAATGTGCTTTTAATTCTGATGAGACGGTGACGTCGAAACTCCCTCTACAAATAATTTTGTTTAA"
+	},
+	"F1": {
+		"kind": "Rbs",
+		"name": "F1",
+		"seq": "CTATGGACTATGTTTTCACATACGAGGGGGATTAG"
+	},
+	"ElvJ": {
+		"kind": "Ribozyme",
+		"name": "ElvJ",
+		"seq": "CTGAagCCCCATAGGGTGGTGTGTACCACCCCTGATGAGTCCAAAAGGACGAAATGGGGcctctacaaataattttgtttaa"
+	},
+	"AmeR": {
+		"kind": "Cds",
+		"name": "AmeR",
+		"seq": "ATGAACAAAACCATTGATCAGGTGCGTAAAGGTGATCGTAAAAGCGATCTGCCGGTTCGTCGTCGTCCGCGTCGTAGTGCCGAAGAAACCCGTCGTGATATTCTGGCAAAAGCCGAAGAACTGTTTCGTGAACGTGGTTTTAATGCAGTTGCCATTGCAGATATTGCAAGCGCACTGAATATGAGTCCGGCAAATGTGTTTAAACATTTTAGCAGCAAAAACGCACTGGTTGATGCAATTGGTTTTGGTCAGATTGGTGTTTTTGAACGTCAGATTTGTCCGCTGGATAAAAGCCATGCACCGCTGGATCGTCTGCGTCATCTGGCACGTAATCTGATGGAACAGCATCATCAGGATCATTTCAAACACATACGGGTTTTTATTCAGATCCTGATGACCGCCAAACAGGATATGAAATGTGGCGATTATTACAAAAGCGTGATTGCAAAACTGCTGGCCGAAATTATTCGTGATGGTGTTGAAGCAGGTCTGTATATTGCAACCGATATTCCGGTTCTGGCAGAAACCGTTCTGCATGCACTGACCAGCGTTATTCATCCGGTTCTGATTGCACAAGAAGATATTGGTAATCTGGCAACCCGTTGTGATCAGCTGGTTGATCTGATTGATGCAGGTCTGCGTAATCCGCTGGCAAAATAA"
+	},
+	"terminator_mxiE": {
+		"kind": "Terminator",
+		"name": "terminator_mxiE",
+		"seq": "GCCCCCGGAAGATCATTCCGGGGGCTTTTTTATT"
+	},
+	"B2": {
+		"kind": "Rbs",
+		"name": "B2",
+		"seq": "CTATGGACTATGTTTTTCAAAGACGAAAAACTACTAG"
+	},
+	"sgRNA_A3NT": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A3NT",
+		"seq": "ATAATACCATGCTCCATTTCGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTCCACAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"LmrA": {
+		"kind": "Cds",
+		"name": "LmrA",
+		"seq": "ATGAGCTATGGTGATAGCCGTGAAAAAATTCTGAGCGCAGCAACCCGTCTGTTTCAGCTGCAGGGTTATTATGGCACCGGTCTGAATCAGATTATCAAAGAAAGCGGTGCACCGAAAGGTAGCCTGTATTATCATTTTCCGGGTGGTAAAGAACAGCTGGCAATTGAAGCAGTGAACGAAATGAAAGAATATATCCGCCAGAAAATCGCCGATTGTATGGAAGCATGTACCGATCCGGCAGAAGGTATTCAGGCATTTCTGAAAGAACTGAGCTGTCAGTTTAGCTGTACCGAAGATATTGAAGGTCTGCCGGTTGGTCTGCTGGCAGCAGAAACCAGCCTGAAAAGCGAACCGCTGCGTGAAGCATGTCATGAAGCATATAAAGAATGGGCCAGCGTGTATGAAGAAAAACTGCGTCAGACCGGTTGTAGCGAAAGCCGTGCAAAAGAAGCAAGCACCGTTGTTAATGCAATGATTGAAGGTGGTATTCTGCTGAGCCTGACCGCAAAAAATAGCACACCGCTGCTGCATATTAGCAGCTGTATTCCGGATCTGCTGAAACGTTAA"
+	},
+	"ECK120015440": {
+		"kind": "Terminator",
+		"name": "ECK120015440",
+		"seq": "tccggcaattAAAAAAGCGGCTAACCACGCCGCTTTTTTtacgtctgca"
+	},
+	"SicA": {
+		"kind": "Cds",
+		"name": "SicA",
+		"seq": "atggattatcaaaataatgtcagcgaagaacgtgttgcggaaatgatttgggatgccgttagtgaaggcgccacgctaaaagacgttcatgggatccctcaagatatgatggacggtttatatgctcatgcttatgagttttataaccagggacgactggatgaagctgagacgttctttcgttacttatgcatttatgatttttacaatcccgattacaccatgggactggcggcagtatgccaactgaaaaaacaatttcagaaagcatgtgacctttatgcagtagcgtttacgttacttaaaaatgattatcgccccgttttttttaccgggcagtgtcaattattaatgcgtaaggcagcaaaagccagacagtgttttgaacttgtcaatgaacgtactgaagatgagtctctgcgggcaaaagcgttggtctatctggaggcgctaaaaacggcggagacagagcagcacagtgaacaagaaaaggaataa"
+	},
+	"RiboH24": {
+		"kind": "Ribozyme",
+		"name": "RiboH24",
+		"seq": "AGCTTCGTTACCACAAGCTGATGAGATCCAAAAAGATCGAAACCTATTAGGTCCTTGTGTACTGAAGCCCTCTACAAATAATTTTGTTTAA"
+	},
+	"RiboH10": {
+		"kind": "Ribozyme",
+		"name": "RiboH10",
+		"seq": "AGTCCCGTTACCCGCAGCTGATGAGCCCCAAAAAGGGCGAAACCTATTAGGTCCTGCGGTACTGGGATcctctacaaataattttgtttaa"
+	},
+	"sgRNA_A5NT": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A5NT",
+		"seq": "ATAATACCCTCCGAGTGTTTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGACGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"R1": {
+		"kind": "Rbs",
+		"name": "R1",
+		"seq": "TTTAATTCGCGGAAGCGCAGAGATAAGGGGTATC"
+	},
+	"terminator_TetR": {
+		"kind": "Terminator",
+		"name": "terminator_TetR",
+		"seq": "CTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC"
+	},
+	"P1": {
+		"kind": "Rbs",
+		"name": "P1",
+		"seq": "CTATGGACTATGTTTGAAAGGGAGAAATACTAG"
+	},
+	"Q2": {
+		"kind": "Rbs",
+		"name": "Q2",
+		"seq": "GCCATGCCATTGGCTTTTGATAGAGGACAACTACTAG"
+	},
+	"S3": {
+		"kind": "Rbs",
+		"name": "S3",
+		"seq": "GAGTCTATGGACTATGTTTTCACAAAGGAAGTACCAGG"
+	},
+	"A1": {
+		"kind": "Rbs",
+		"name": "A1",
+		"seq": "AATGTTCCCTAATAATCAGCAAAGAGGTTACTAG"
+	},
+	"F_scar": {
+		"kind": "Scar",
+		"name": "F_scar",
+		"seq": "CGCT"
+	},
+	"sgRNA_A5T": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A5T",
+		"seq": "TTTACACCAAAACACTCGGAGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGACGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"I1": {
+		"kind": "Rbs",
+		"name": "I1",
+		"seq": "ATTGCTATGGACTATGTTTCAAAGTGAGAATACTAG"
+	},
+	"E-scar": {
+		"kind": "Scar",
+		"name": "E-scar",
+		"seq": "GCTT"
+	},
+	"P-scar": {
+		"kind": "Scar",
+		"name": "P-scar",
+		"seq": "CCTA"
+	},
+	"E1": {
+		"kind": "Rbs",
+		"name": "E1",
+		"seq": "CCCCCCGAGGAGTAGCAC"
+	},
+	"hismins": {
+		"kind": "Terminator",
+		"name": "hismins",
+		"seq": "GCCCCCGGAAGATCATTCCGGGGGCTTTTTTATT"
+	},
+	"R-scar": {
+		"kind": "Scar",
+		"name": "R-scar",
+		"seq": "GTAA"
+	},
+	"exsA": {
+		"kind": "Cds",
+		"name": "exsA",
+		"seq": "atgcaaggagccaaatctcttggccgaaagcagataacgtcttgtcattggaacattccaactttcgaatacagggtaaacaaggaagagggcgtatatgttctgctcgagggcgaactgaccgtccaggacatcgattccactttttgcctggcgcctggcgagttgcttttcgtccgccgcggaagctatgtcgtaagtaccaagggaaaggacagccgaatactctggattccattatctgcccagtttctacaaggcttcgtccagcgcttcggcgcgctgttgagtgaagtcgagcgttgcgacgagcccgtgccgggcatcatcgcgttcgctgccacgcctctgctggccggttgcgtcaaggggttgaaggaattgcttgtgcatgagcatccgccgatgctcgcctgcctgaagatcgaggagttgctgatgctcttcgcgttcagtccgcaggggccgctgctgatgtcggtcctgcggcaactgagcaaccggcatgtcgagcgtctgcagctattcatggagaagcactacctcaacgagtggaagctgtccgacttctcccgcgagttcggcatggggctgaccaccttcaagga"
+	},
+	"sgRNA_A2NT": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A2NT",
+		"seq": "ATAATACCCGTGTGACCCGTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"Y_scar": {
+		"kind": "Scar",
+		"name": "Y_scar",
+		"seq": "ATTG"
+	},
+	"RBSforExsDA": {
+		"kind": "Rbs",
+		"name": "RBSforExsDA",
+		"seq": "acatatataaagcgcgcaatgtagtgaggaagccaaggcagaga"
+	},
+	"U_scar": {
+		"kind": "Scar",
+		"name": "U_scar",
+		"seq": "GGGC"
+	},
+	"sgRNA_A2T": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A2T",
+		"seq": "TTTACACCAACGGGTCACACGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"P2": {
+		"kind": "Rbs",
+		"name": "P2",
+		"seq": "GGAGCTATGGACTATGTTTGAAAGGCTGAAATACTAG"
+	},
+	"RiboJ51": {
+		"kind": "Ribozyme",
+		"name": "RiboJ51",
+		"seq": "CTGAAGTAGTCACCGGCTGTGCTTGCCGGTCTGATGAGCCTGTGAAGGCGAAACTACCTCTACAAATAATTTTGTTTAA"
+	},
+	"ExsC": {
+		"kind": "Cds",
+		"name": "ExsC",
+		"seq": "atggatttaacgagcaaggtcaaccgactgcttgccgagttcgcaggccgtatcggtttgccttccctgtccctcgacgaggagggcatggcgagcctcctgttcgacgaacaggtgggcgtcaccctgttgctgctcgccgagcgcgagcgtctgttgctggaggccgatgtggcgggcatcgatgtgctgggcgaggggatctttcgccagctcgccagcttcaaccgccattggcaccgtttcgatctgcatttcggcttcgacgagctgaccggcaaggtccagttgtatgcgcagattctcgcagcgcaactgaccctcgaatgcttcgaggcgaccttggccaatctgctcgatcacgccgagttctggcagcgcctgctgccgtgcgacagtgatcgcgaggcggtcgctgcggtcggcatgagggtttga"
+	},
+	"TetR": {
+		"kind": "Cds",
+		"name": "TetR",
+		"seq": "atgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtcctaa"
+	},
+	"ECK120033737": {
+		"kind": "Terminator",
+		"name": "ECK120033737",
+		"seq": "ggaaacacagAAAAAAGCCCGCACCTGACAGTGCGGGCTTTTTTTTTcgaccaaagg"
+	},
+	"X_scar": {
+		"kind": "Scar",
+		"name": "X_scar",
+		"seq": "TGTC"
+	},
+	"sgRNA_A1NT": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A1NT",
+		"seq": "ATAATACCTAGGACTGAGCTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGATTGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"HlyIIR": {
+		"kind": "Cds",
+		"name": "HlyIIR",
+		"seq": "ATGAAATACATCCTGTTTGAGGTGTGCGAAATGGGTAAAAGCCGTGAACAGACCATGGAAAATATTCTGAAAGCAGCCAAAAAGAAATTCGGCGAACGTGGTTATGAAGGCACCAGCATTCAAGAAATTACCAAAGAAGCCAAAGTTAACGTTGCAATGGCCAGCTATTACTTTAATGGCAAAGAGAACCTGTACTACGAGGTGTTCAAAAAATACGGTCTGGCAAATGAACTGCCGAACTTTCTGGAAAAAAACCAGTTTAATCCGATTAATGCCCTGCGTGAATATCTGACCGTTTTTACCACCCACATTAAAGAAAATCCGGAAATTGGCACCCTGGCCTATGAAGAAATTATCAAAGAAAGCGCACGCCTGGAAAAAATCAAACCGTATTTTATCGGCAGCTTCGAACAGCTGAAAGAAATTCTGCAAGAGGGTGAAAAACAGGGTGTGTTTCACTTTTTTAGCATCAACCATACCATCCATTGGATTACCAGCATTGTTCTGTTTCCGAAATTCAAAAAATTCATCGATAGCCTGGGTCCGAATGAAACCAATGATACCAATCATGAATGGATGCCGGAAGATCTGGTTAGCCGTATTATTAGCGCACTGACCGATAAACCGAACATTTAA"
+	},
+	"G_scar": {
+		"kind": "Scar",
+		"name": "G_scar",
+		"seq": "ATAG"
+	},
+	"PlmJ": {
+		"kind": "Ribozyme",
+		"name": "PlmJ",
+		"seq": "CTGAAGTCATAAGTCTGGGCTAAGCCCACTGATGAGTCGCTGAAATGCGACGAAACTTATGACCTCTACAAATAATTTTGTTTAA"
+	},
+	"RiboH11": {
+		"kind": "Ribozyme",
+		"name": "RiboH11",
+		"seq": "AGCCGCGTTACCAGCAGCTGATGAGCACCAAAAAGTGCGAAACCTATTAGGTCCTGCTGTACTGCGGTcctctacaaataattttgtttaa"
+	},
+	"SarJ": {
+		"kind": "Ribozyme",
+		"name": "SarJ",
+		"seq": "CTGAGACTGTCGCCGGATGTGTATCCGACCTGACGATGGCCCAAAAGGGCCGAAACAGTCCTCTACAAATAATTTTGTTTAA"
+	},
+	"Q_scar": {
+		"kind": "Scar",
+		"name": "Q_scar",
+		"seq": "GAGT"
+	},
+	"L3S2P24": {
+		"kind": "Terminator",
+		"name": "L3S2P24",
+		"seq": "CTCGGTACCAAATTCCAGAAAAGACACCCGAAAGGGTGTTTTTTCGTTTTGGTCC"
+	},
+	"ExsDA": {
+		"kind": "Cds",
+		"name": "ExsDA",
+		"seq": "atggagcaggaggacgataagcagtactcccgagaagcggtgttcgctggcaggcgggtatccgtggtgggctcggacgcccgctcgcggggtcgggtgccgggttacgcatcgagcagtttgtatcgtgagtccggaatcatcagtgcgcggcaactggcgttgctgcagcggatgctgccgcgcctgcggctggagcaactgttccgctgcgagtggttgcagcagcgcctggcgcgcggcctggcgctggggcgcgaagaggtgcggcagattctcctctgcgcggcgcaggacgacgacggctggtgctccgaactgggcgaccgggtcaacctcgccgtgccgcagtcgatgatcgactgggtcctgctgccggtctatggctggtgggaaagcctgctcgaccaggcgatccccggctggcgcctgtcgctggtggagctggaaacccagtcccggcaactgcgagtcaagtccgaattctggtcccgcgtggccgagctggagccggagcaggcccgcgaggaactggccagggtcgccaagtgccaggcgcgcacccaggaacaggtggccgaactggccggcaagctggagacggcttcggcactggcgaagagcgcctggccgaactggcagcggggcatggcgacgctgctcgccagcggcgggctggccggcttcgagccgatccccgaggtcctcgaatgcctctggcaacctctctgccggctggacgacgacgtcggcgcggcggacgccgtccaggcctggctgcacgaacgcaacctgtgccaggcacaggatcacttctactggcagagctgagcattcaaggtacgacgggaagtgttggggttcttataatatgcaaggagccaaatctcttggccgaaagcagataacgtcttgtcattggaacattccaactttcgaatacagggtaaacaaggaagagggcgtatatgttctgctcgagggcgaactgaccgtccaggacatcgattccactttttgcctggcgcctggcgagttgcttttcgtccgccgcggaagctatgtcgtaagtaccaagggaaaggacagccgaatactctggattccattatctgcccagtttctacaaggcttcgtccagcgcttcggcgcgctgttgagtgaagtcgagcgttgcgacgagcccgtgccgggcatcatcgcgttcgctgccacgcctctgctggccggttgcgtcaaggggttgaaggaattgcttgtgcatgagcatccgccgatgctcgcctgcctgaagatcgaggagttgctgatgctcttcgcgttcagtccgcaggggccgctgctgatgtcggtcctgcggcaactgagcaaccggcatgtcgagcgtctgcagctattcatggagaagcactacctcaacgagtggaagctgtccgacttctcccgcgagttcggcatggggctgaccaccttcaaggagctgttcggcagtgtctatggggtttcgccgcgcgcctggatcagcgagcggagaatcctctatgcccatcagttgctgctcaacagcgacatgagcatcgtcgacatcgccatggaggcgggcttttccagtcagtcctatttcacccagagctatcgccgccgtttcggctgcacgccgagccgctcgcggcaggggaaggacgaatgccgggctaaaaataactga"
+	},
+	"G-scar": {
+		"kind": "Scar",
+		"name": "G-scar",
+		"seq": "ATAG"
+	},
+	"RBSforSicA": {
+		"kind": "Rbs",
+		"name": "RBSforSicA",
+		"seq": "ttgggctagcgaattcgagctcggtacctcacacaggaaaggcctcg"
+	},
+	"V_scar": {
+		"kind": "Scar",
+		"name": "V_scar",
+		"seq": "TCTG"
+	},
+	"RiboJ60": {
+		"kind": "Ribozyme",
+		"name": "RiboJ60",
+		"seq": "CTGAAGTCGTCAAGTGCTGTGCTTGCACTTCTGATGAGGCAGTGATGCCGAAACGACCTCTACAAATAATTTTGTTTAA"
+	},
+	"C_scar": {
+		"kind": "Scar",
+		"name": "C_scar",
+		"seq": "AATG"
+	},
+	"SrpR": {
+		"kind": "Cds",
+		"name": "SrpR",
+		"seq": "ATGGCACGTAAAACCGCAGCAGAAGCAGAAGAAACCCGTCAGCGTATTATTGATGCAGCACTGGAAGTTTTTGTTGCACAGGGTGTTAGTGATGCAACCCTGGATCAGATTGCACGTAAAGCCGGTGTTACCCGTGGTGCAGTTTATTGGCATTTTAATGGTAAACTGGAAGTTCTGCAGGCAGTTCTGGCAAGCCGTCAGCATCCGCTGGAACTGGATTTTACACCGGATCTGGGTATTGAACGTAGCTGGGAAGCAGTTGTTGTTGCAATGCTGGATGCAGTTCATAGTCCGCAGAGCAAACAGTTTAGCGAAATTCTGATTTATCAGGGTCTGGATGAAAGCGGTCTGATTCATAATCGTATGGTTCAGGCAAGCGATCGTTTTCTGCAGTATATTCATCAGGTTCTGCGTCATGCAGTTACCCAGGGTGAACTGCCGATTAATCTGGATCTGCAGACCAGCATTGGTGTTTTTAAAGGTCTGATTACCGGTCTGCTGTATGAAGGTCTGCGTAGCAAAGATCAGCAGGCACAGATTATCAAAGTTGCACTGGGTAGCTTTTGGGCACTGCTGCGTGAACCGCCTCGTTTTCTGCTGTGTGAAGAAGCACAGATTAAACAGGTGAAATCCTTCGAATAA"
+	},
+	"BBa_B1006_U10": {
+		"kind": "Terminator",
+		"name": "BBa_B1006_U10",
+		"seq": "AAAAAAAAACCCCGCCCCTGACAGGGCGGGGTTTTTTTTTT"
+	},
+	"L3S2P21": {
+		"kind": "Terminator",
+		"name": "L3S2P21",
+		"seq": "CTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC"
+	},
+	"terminator_LacI": {
+		"kind": "Terminator",
+		"name": "terminator_LacI",
+		"seq": "CTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC"
+	},
+	"D-scar": {
+		"kind": "Scar",
+		"name": "D-scar",
+		"seq": "AGGT"
+	},
+	"RBSforExsC": {
+		"kind": "Rbs",
+		"name": "RBSforExsC",
+		"seq": "tactagagtcagaattcgctttaggaggcgccccc"
+	},
+	"B1": {
+		"kind": "Rbs",
+		"name": "B1",
+		"seq": "CTATGGACTATGTTTTAACTACTAG"
+	},
+	"A-scar": {
+		"kind": "Scar",
+		"name": "A-scar",
+		"seq": "GGAG"
+	},
+	"L3S3P31": {
+		"kind": "Terminator",
+		"name": "L3S3P31",
+		"seq": "CCAATTATTGAACACCCTAACGGGTGTTTTTTTTTTTTTGGTCTACC"
+	},
+	"rbs_mxiE": {
+		"kind": "Rbs",
+		"name": "rbs_mxiE",
+		"seq": "cctaactggagtagatggg"
+	},
+	"ECK120016170": {
+		"kind": "Terminator",
+		"name": "ECK120016170",
+		"seq": "ACAATTTTCGAAAAAACCCGCTTCGGCGGGTTTTTTTATAGCTAAAA"
+	},
+	"ECK120010876": {
+		"kind": "Terminator",
+		"name": "ECK120010876",
+		"seq": "taaggttgaaAAATAAAAACGGCGCTAAAAAGCGCCGTTTTTTTTgacggtggta"
+	},
+	"A_scar": {
+		"kind": "Scar",
+		"name": "A_scar",
+		"seq": "GGAG"
+	},
+	"L1": {
+		"kind": "Rbs",
+		"name": "L1",
+		"seq": "GTCCTATGGACTTTTTCATACAGGAGAACCCTCG"
+	},
+	"L3S3P11": {
+		"kind": "Terminator",
+		"name": "L3S3P11",
+		"seq": "CCAATTATTGAACACCCTTCGGGGTGTTTTTTTGTTTCTGGTCTACC"
+	},
+	"O-scar": {
+		"kind": "Scar",
+		"name": "O-scar",
+		"seq": "ATGC"
+	},
+	"P3": {
+		"kind": "Rbs",
+		"name": "P3",
+		"seq": "CTTTACGAGGGCGATCCT"
+	},
+	"mxiE": {
+		"kind": "Cds",
+		"name": "mxiE",
+		"seq": "atgagtaaatataaaggcctgaacaccagcaacatgttctacatctacagctctggtcatgaaccggtgaacgttgaactggtgaaagataaagaacgtaacatcatcgaactggcaccggcgtggaaaggctttttctttgtgcgtaaccagaacatcaaattcagcgataacgttaactaccactaccgcttcaacatcaactcttgcgcaaaattcctggcgttttgggattattttagcggcgccctggttgaacattctcacgcagaaaaatgcatccatttctaccacgaaaacgatctgcgtgatagctgtaatacggaatctatgctggataaactgatgctgcgcttcatttttagtagcgatcagaacgtgtctaatgccctggcaatgatccgtatgaccgaaagttatcatctggttctgtacctgctgcgtacgattgaaaaagaaaaagaagtgcgcatcaaaagcctgaccgaacactatggcgtttctgaagcgtactttcgtagtctgtgtcgcaaagcgctgggtgccaaagtgaaagaacagctgaacacgtggcgcctggtgaatggcctgctggatgttttcctgcataaccagaccattacgagcgcggccatgaacaatggttatgcgtctaccagtcacttcagcaatgaaattaaaacgcgtctgggctttagtgcccgcgaactgagcaacatcaccttcctggtgaagaaaattaatgaaaaaatctaa"
+	},
+	"rbs_exsA": {
+		"kind": "Rbs",
+		"name": "rbs_exsA",
+		"seq": "acatatataaagcgcgcaatgtagtgaggaagccaaggcagaga"
+	},
+	"sgRNA_A4NT": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A4NT",
+		"seq": "ATAATACCAGCTAGTTGTGGGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGCTTCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"LitR": {
+		"kind": "Cds",
+		"name": "LitR",
+		"seq": "ATGGATACCATTCAGAAACGTCCGCGTACCCGTCTGAGTCCGGAAAAACGTAAAGAACAGCTGCTGGATATTGCCATTGAAGTTTTTAGCCAGCGTGGTATTGGTCGTGGTGGTCATGCAGATATTGCAGAAATTGCACAGGTTAGCGTTGCAACCGTGTTTAACTATTTTCCGACCCGTGAAGATCTGGTTGATGATGTTCTGAACAAAGTGGAAAACGAGTTTCACCAGTTCATCAATAACAGCATTAGCCTGGATCTGGATGTTCGTAGCAATCTGAATACCCTGCTGCTGAACATTATTGATAGCGTTCAGACCGGCAACAAATGGATTAAAGTTTGGTTTGAATGGTCAACCAGCACCCGTGATGAAGTTTGGCCTCTGTTTCTGAGCACCCATAGCAATACCAATCAGGTGATCAAAACCATGTTTGAAGAGGGTATTGAACGCAATGAAGTGTGCAATGATCATACACCGGAAAATCTGACCAAAATGCTGCATGGTATTTGCTATAGCGTGTTTATTCAGGCCAATCGTAATAGCAGCAGCGAAGAAATGGAAGAAACCGCAAATTGCTTTCTGAATATGCTGTGCATCTACAAATAA"
+	},
+	"sgRNA_A3T": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A3T",
+		"seq": "TTTACACCCGAAATGGAGCAGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTCCACAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"terminator_exsDA": {
+		"kind": "Terminator",
+		"name": "terminator_exsDA",
+		"seq": "TAGAGATCAAGCCTTAACGAACTAAGACCCCCGCACCGAAAGGTCCGGGGGTTTTTTTTGACCTTAAAAACATAACCGAGGAGCAGACA"
+	},
+	"sgRNA_A1T": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A1T",
+		"seq": "TTTACACCTAGCTCAGTCCTGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGATTGCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"H1": {
+		"kind": "Rbs",
+		"name": "H1",
+		"seq": "ACCCCCGAG"
+	},
+	"sgRNA_A4T": {
+		"kind": "SgRNA",
+		"name": "sgRNA_A4T",
+		"seq": "TTTACACCTCCACAACTAGCGTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGGCTTCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTT"
+	},
+	"E_scar": {
+		"kind": "Scar",
+		"name": "E_scar",
+		"seq": "GCTT"
+	},
+	"S1": {
+		"kind": "Rbs",
+		"name": "S1",
+		"seq": "GAGTCTATGGACTATGTTTTCACAGAGGAGGTACCAGG"
+	},
+	"C-scar": {
+		"kind": "Scar",
+		"name": "C-scar",
+		"seq": "AATG"
+	},
+	"P_scar": {
+		"kind": "Scar",
+		"name": "P_scar",
+		"seq": "CCTA"
+	},
+	"PsrA": {
+		"kind": "Cds",
+		"name": "PsrA",
+		"seq": "ATGGCACAGAGCGAAACCGTTGAACGTATTCTGGATGCAGCAGAACAGCTGTTTGCAGAACGTGGTTTTGCAGAAACCAGCCTGCGTCTGATTACCAGCAAAGCCGGTGTTAATCTGGCAGCAGTGAATTATCATTTTGGCAGCAAAAAAGCACTGATTCAGGCAGTTTTTAGCCGTTTTCTGGGTCCGTTTTGTGCAAGCCTGGAACGTGAACTGGAACGTCGTCAGGCACGTCCGGAACAGAAACCGAGCCTGGAAGAACTGCTGGAAATGCTGGTTGAACAGGCACTGGCAGTTCAGCCTCGTAGCAATAATGATCTGAGCATTTTTATGTGTCTGCTGGGTCTGGCATTTAGCCAGAGCCAGGGTCATCTGCGTCGTTATCTGGAAGATATGTATGGTAAAGTGTTCCGTCGTTATATGCTGCTGGTTAATGAAGCAGCACCGCGTGTTCCGCCTCTGGAACTGTTTTGGCGTGTTCATTTTATGCTGGGTGCAGCAGCATTTAGCATGAGCGGTATTAAAGCACTGCGTGCAATTGCAGAAACCGATTTTGGTATTAACACCAGCATTGAACAGGTTATGCGTCTGATGGTTCCGTTTCTGGCAGCAGGTATGCGTGCAGATAGCGGTGTTACCGATGAAGCAATGGCAGCAGCACAGCTGCGTCCGCGTAGCAAAACCAGCACCAGCGCAACCACCGCAAAAGCATAA"
+	},
+	"AmtR": {
+		"kind": "Cds",
+		"name": "AmtR",
+		"seq": "ATGGCAGGCGCAGTTGGTCGTCCGCGTCGTAGTGCACCGCGTCGTGCAGGTAAAAATCCGCGTGAAGAAATTCTGGATGCAAGCGCAGAACTGTTTACCCGTCAGGGTTTTGCAACCACCAGTACCCATCAGATTGCAGATGCAGTTGGTATTCGTCAGGCAAGCCTGTATTATCATTTTCCGAGCAAAACCGAAATCTTTCTGACCCTGCTGAAAAGCACCGTTGAACCGAGCACCGTTCTGGCAGAAGATCTGAGCACCCTGGATGCAGGTCCGGAAATGCGTCTGTGGGCAATTGTTGCAAGCGAAGTTCGTCTGCTGCTGAGCACCAAATGGAATGTTGGTCGTCTGTATCAGCTGCCGATTGTTGGTAGCGAAGAATTTGCAGAATATCATAGCCAGCGTGAAGCACTGACCAATGTTTTTCGTGATCTGGCAACCGAAATTGTTGGTGATGATCCGCGTGCAGAACTGCCGTTTCATATTACCATGAGCGTTATTGAAATGCGTCGCAATGATGGTAAAATTCCGAGTCCGCTGAGCGCAGATAGCCTGCCGGAAACCGCAATTATGCTGGCAGATGCAAGCCTGGCAGTTCTGGGTGCACCGCTGCCTGCAGATCGTGTTGAAAAAACCCTGGAACTGATTAAACAGGCAGATGCAAAATAA"
+	},
+	"rbs_TetR": {
+		"kind": "Rbs",
+		"name": "rbs_TetR",
+		"seq": "aaagaggagaaa"
+	},
+	"F-scar": {
+		"kind": "Scar",
+		"name": "F-scar",
+		"seq": "CGCT"
+	},
+	"Q1": {
+		"kind": "Rbs",
+		"name": "Q1",
+		"seq": "GTAAGCCATGCCATTGGCTTTTGATAGAGGATAACTACTAG"
+	},
+	"ilvGEDA": {
+		"kind": "Terminator",
+		"name": "ilvGEDA",
+		"seq": "TAGAGATCAAGCCTTAACGAACTAAGACCCCCGCACCGAAAGGTCCGGGGGTTTTTTTTGACCTTAAAAACATAACCGAGGAGCAGACA"
+	},
+	"V-scar": {
+		"kind": "Scar",
+		"name": "V-scar",
+		"seq": "TCTG"
+	},
+	"RiboJ54": {
+		"kind": "Ribozyme",
+		"name": "RiboJ54",
+		"seq": "CTGAAGGGGTCAGTTGATGTGCTTTCAACTCTGATGAGTCAGTGATGACGAAACCCCCTCTACAAATAATTTTGTTTAA"
+	},
+	"Y-scar": {
+		"kind": "Scar",
+		"name": "Y-scar",
+		"seq": "ATTG"
+	},
+	"RiboH12": {
+		"kind": "Ribozyme",
+		"name": "RiboH12",
+		"seq": "AGGCGCGTTACCCTCAGCTGATGAGCGCCAAAAAGCGCGAAACCTATTAGGTCCTGAGGTACTGCGCTcctctacaaataattttgtttaa"
+	},
+	"RiboJ57": {
+		"kind": "Ribozyme",
+		"name": "RiboJ57",
+		"seq": "CTGAAGAAGTCAATTAATGTGCTTTTAATTCTGATGAGTCGGTGACGACGAAACTTCCTCTACAAATAATTTTGTTTAA"
+	},
+	"L3S2P55": {
+		"kind": "Terminator",
+		"name": "L3S2P55",
+		"seq": "CTCGGTACCAAAGACGAACAATAAGACGCTGAAAAGCGTCTTTTTTCGTTTTGGTCC"
+	},
+	"PhlF": {
+		"kind": "Cds",
+		"name": "PhlF",
+		"seq": "ATGGCACGTACCCCGAGCCGTAGCAGCATTGGTAGCCTGCGTAGTCCGCATACCCATAAAGCAATTCTGACCAGCACCATTGAAATCCTGAAAGAATGTGGTTATAGCGGTCTGAGCATTGAAAGCGTTGCACGTCGTGCCGGTGCAAGCAAACCGACCATTTATCGTTGGTGGACCAATAAAGCAGCACTGATTGCCGAAGTGTATGAAAATGAAAGCGAACAGGTGCGTAAATTTCCGGATCTGGGTAGCTTTAAAGCCGATCTGGATTTTCTGCTGCGTAATCTGTGGAAAGTTTGGCGTGAAACCATTTGTGGTGAAGCATTTCGTTGTGTTATTGCAGAAGCACAGCTGGACCCTGCAACCCTGACCCAGCTGAAAGATCAGTTTATGGAACGTCGTCGTGAGATGCCGAAAAAACTGGTTGAAAATGCCATTAGCAATGGTGAACTGCCGAAAGATACCAATCGTGAACTGCTGCTGGATATGATTTTTGGTTTTTGTTGGTATCGCCTGCTGACCGAACAGCTGACCGTTGAACAGGATATTGAAGAATTTACCTTCCTGCTGATTAATGGTGTTTGTCCGGGTACACAGCGTTAA"
+	},
+	"R_scar": {
+		"kind": "Scar",
+		"name": "R_scar",
+		"seq": "GTAA"
+	},
+	"D_scar": {
+		"kind": "Scar",
+		"name": "D_scar",
+		"seq": "AGGT"
+	},
+	"ECK120033736": {
+		"kind": "Terminator",
+		"name": "ECK120033736",
+		"seq": "aacgcatgagAAAGCCCCCGGAAGATCACCTTCCGGGGGCTTTtttattgcgc"
+	},
+	"S4": {
+		"kind": "Rbs",
+		"name": "S4",
+		"seq": "CTATGGACTATGTTTTCACACAGGAAATACCAGG"
+	},
+	"IcaRA": {
+		"kind": "Cds",
+		"name": "IcaRA",
+		"seq": "GTGAAAGACAAAATTATCGATAACGCCATCACCCTGTTTAGCGAAAAAGGTTATGACGGCACCACCCTGGATGATATTGCAAAAAGCGTGAACATCAAAAAAGCCAGCCTGTATTATCACTTTGATAGCAAAAAAAGCATCTACGAGCAGAGCGTTAAATGCTGTTTCGATTATCTGAACAACATCATCATGATGAACCAGAACAAAAGCAACTATAGCATCGATGCCCTGTATCAGTTTCTGTTTGAGTTCATCTTCGATATCGAGGAACGCTATATTCGTATGTATGTTCAGCTGAGCAACACACCGGAAGAATTTTCAGGTAACATTTATGGCCAGATCCAGGATCTGAATCAGAGCCTGAGCAAAGAAATCGCCAAATTCTATGACGAAAGCAAAATCAAAATGACCAAAGAGGACTTCCAGAATCTGATTCTGCTGTTTCTGGAAAGCTGGTATCTGAAAGCCAGCTTTAGCCAGAAATTTGGTGCAGTTGAAGAAAGCAAAAGCCAGTTTAAAGATGAGGTTTATAGCCTGCTGAACATCTTTCTGAAGAAATAA"
+	},
+	"B3": {
+		"kind": "Rbs",
+		"name": "B3",
+		"seq": "CCAAACGAGGCCGGGAGG"
+	},
+	"RBSforInvF": {
+		"kind": "Rbs",
+		"name": "RBSforInvF",
+		"seq": "ggtcgagctcatcccgtcagcgttcctatggatggtacaact"
+	},
+	"exsD": {
+		"kind": "Cds",
+		"name": "exsD",
+		"seq": "atggagcaggaagacgataagcagtactcccgagaagcggtgttcgctggcaggcgggtatccgtggtgggctcggacgcccgctcgcggggtcgggtgccgggttacgcatcgagcagtttgtatcgtgagtccggaatcatcagtgcgcggcaactggcgttgctgcagcggatgctgccgcgcctgcggctggagcaactgttccgctgcgagtggttgcagcagcgcctggcgcgcggcctggcgctggggcgcgaagaggtgcggcagattctcctctgcgcggcgcaggacgacgacggctggtgctccgaactgggcgaccgggtcaacctcgccgtgccgcagtcgatgatcgactgggtcctgctgccggtctatggctggtgggaaagcctgctcgaccaggcgatccccggctggcgcctgtcgctggtggagctggagacccagtcccggcaactgcgagtcaagtccgaattctggtcccgcgtggccgagctggagccggagcaggcccgcgaggaactggccagggtcgccaagtgccaggcgcgcacccaggaacaggtggccgaactggccggcaagctggagacggcttcggcactggcgaagagcgcctggccgaactggcagcggggcatggcgacgctgctcgccagcggcgggctggccggcttcgagccgatccccgaggtcctcgaatgcctctggcaacctctctgccggctggacgacgacgtcggcgcggcggacgccgtccaggcctggctgcacgaacgcaacctgtgccaggcacaggatcacttctactggcagagctga"
+	},
+	"RiboJ10": {
+		"kind": "Ribozyme",
+		"name": "RiboJ10",
+		"seq": "CTGAAGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAA"
+	},
+	"X-scar": {
+		"kind": "Scar",
+		"name": "X-scar",
+		"seq": "TGTC"
+	},
+	"B_scar": {
+		"kind": "Scar",
+		"name": "B_scar",
+		"seq": "TACG"
+	},
+	"rbs_exsD": {
+		"kind": "Rbs",
+		"name": "rbs_exsD",
+		"seq": "acatatataaagcgcgcaatgtagtgaggaagccaaggcagaga"
+	},
+	"ECK120019600": {
+		"kind": "Terminator",
+		"name": "ECK120019600",
+		"seq": "TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA"
+	},
+	"ScmJ": {
+		"kind": "Ribozyme",
+		"name": "ScmJ",
+		"seq": "agCGCTGTCTGTACTTGTATCAGTACACTGACGAGTCCCTAAAGGACGAAACACCGcctctacaaataattttgtttaa"
+	},
+	"BydvJ": {
+		"kind": "Ribozyme",
+		"name": "BydvJ",
+		"seq": "CTGAagGGTGTCTCAAGGTGCGTACCTTGACTGATGAGTCCGAAAGGACGAAACACCcctctacaaataattttgtttaa"
+	},
+	"QacR": {
+		"kind": "Cds",
+		"name": "QacR",
+		"seq": "ATGAACCTGAAAGATAAAATTCTGGGCGTTGCCAAAGAACTGTTTATCAAAAATGGCTATAACGCAACCACCACCGGTGAAATTGTTAAACTGAGCGAAAGCAGCAAAGGCAATCTGTATTATCACTTTAAAACCAAAGAGAACCTGTTTCTGGAAATCCTGAACATCGAAGAAAGCAAATGGCAAGAGCAGTGGAAAAAAGAACAAATCAAATGCAAAACCAACCGCGAGAAATTCTATCTGTATAATGAACTGAGCCTGACCACCGAATATTACTATCCGCTGCAGAATGCCATCATCGAGTTTTATACCGAGTACTATAAAACCAACAGCATCAACGAGAAAATGAACAAACTGGAAAACAAATACATCGATGCCTACCACGTGATCTTTAAAGAAGGTAATCTGAACGGCGAATGGTGCATTAATGATGTTAATGCCGTGAGCAAAATTGCAGCAAATGCCGTTAATGGCATTGTTACCTTTACCCATGAGCAGAATATCAACGAACGCATTAAACTGATGAACAAATTCAGCCAGATCTTTCTGAATGGCCTGAGCAAATAA"
+	},
+	"BM3R1": {
+		"kind": "Cds",
+		"name": "BM3R1",
+		"seq": "ATGGAAAGCACCCCGACCAAACAGAAAGCAATTTTTAGCGCAAGCCTGCTGCTGTTTGCAGAACGTGGTTTTGATGCAACCACCATGCCGATGATTGCAGAAAATGCAAAAGTTGGTGCAGGCACCATTTATCGCTATTTCAAAAACAAAGAAAGCCTGGTGAACGAACTGTTTCAGCAGCATGTTAATGAATTTCTGCAGTGTATTGAAAGCGGTCTGGCAAATGAACGTGATGGTTATCGTGATGGCTTTCATCACATTTTTGAAGGTATGGTGACCTTTACCAAAAATCATCCGCGTGCACTGGGTTTTATCAAAACCCATAGCCAGGGCACCTTTCTGACCGAAGAAAGCCGTCTGGCATATCAGAAACTGGTTGAATTTGTGTGCACCTTTTTTCGTGAAGGTCAGAAACAGGGTGTGATTCGTAATCTGCCGGAAAATGCACTGATTGCAATTCTGTTTGGCAGCTTTATGGAAGTGTATGAAATGATCGAGAACGATTATCTGAGCCTGACCGATGAACTGCTGACCGGTGTTGAAGAAAGCCTGTGGGCAGCACTGAGCCGTCAGAGCTAA"
+	},
+	"RiboJ53": {
+		"kind": "Ribozyme",
+		"name": "RiboJ53",
+		"seq": "CTGAAGCGGTCAACGCATGTGCTTTGCGTTCTGATGAGACAGTGATGTCGAAACCGCCTCTACAAATAATTTTGTTTAA"
+	},
+	"S2": {
+		"kind": "Rbs",
+		"name": "S2",
+		"seq": "GAGTCTATGGACTATGTTTTCACATATGAGATACCAGG"
+	},
+	"ECK120010818": {
+		"kind": "Terminator",
+		"name": "ECK120010818",
+		"seq": "GTCAGTTTCACCTGTTTTACGTAAAAACCCGCTTCGGCGGGTTTTTACTTTTGG"
+	},
+	"O_scar": {
+		"kind": "Scar",
+		"name": "O_scar",
+		"seq": "ATGC"
+	},
+	"B-scar": {
+		"kind": "Scar",
+		"name": "B-scar",
+		"seq": "TACG"
+	},
+	"L3S2P11": {
+		"kind": "Terminator",
+		"name": "L3S2P11",
+		"seq": "CTCGGTACCAAATTCCAGAAAAGAGACGCTTTCGAGCGTCTTTTTTCGTTTTGGTCC"
+	},
+	"U-scar": {
+		"kind": "Scar",
+		"name": "U-scar",
+		"seq": "GGGC"
+	},
+	"rbs_LacI": {
+		"kind": "Rbs",
+		"name": "rbs_LacI",
+		"seq": "aaagaggagaaa"
+	},
+	"Q-scar": {
+		"kind": "Scar",
+		"name": "Q-scar",
+		"seq": "GAGT"
+	},
+	"BetI": {
+		"kind": "Cds",
+		"name": "BetI",
+		"seq": "ATGCCGAAACTGGGTATGCAGAGCATTCGTCGTCGTCAGCTGATTGATGCAACCCTGGAAGCAATTAATGAAGTTGGTATGCATGATGCAACCATTGCACAGATTGCACGTCGTGCCGGTGTTAGCACCGGTATTATTAGCCATTATTTCCGCGATAAAAACGGTCTGCTGGAAGCAACCATGCGTGATATTACCAGCCAGCTGCGTGATGCAGTTCTGAATCGTCTGCATGCACTGCCGCAGGGTAGCGCAGAACAGCGTCTGCAGGCAATTGTTGGTGGTAATTTTGATGAAACCCAGGTTAGCAGCGCAGCAATGAAAGCATGGCTGGCATTTTGGGCAAGCAGCATGCATCAGCCGATGCTGTATCGTCTGCAGCAGGTTAGCAGTCGTCGTCTGCTGAGCAATCTGGTTAGCGAATTTCGTCGTGAACTGCCTCGTGAACAGGCACAAGAGGCAGGTTATGGTCTGGCAGCACTGATTGATGGTCTGTGGCTGCGTGCAGCACTGAGCGGTAAACCGCTGGATAAAACCCGTGCAAATAGCCTGACCCGTCATTTTATCACCCAGCATCTGCCGACCGATTAA"
+	},
+	"InvF": {
+		"kind": "Cds",
+		"name": "InvF",
+		"seq": "atgctaaatacgcaggaagtacttaaagaaggagagaagcggaaaatccgcagcccggaagcatggtttatacagacgtgttccgcgcaaaagctgcatatgtcattttctgaaagccgacacaatgaaaattgcctgattcaggaaggcgcgctgcttttttgcgagcaggccgttgtcgcaccagtatcaggcgacctggtttttcgaccgttaaaaattgaagtactcagcaaattactggcatttatcgatggcgcaggattagtggacacgacatatgctgaatccgataaatgggttttgctgagtcctgagtttcgcgctatttggcaagatcgtaaacgctgcgagtactggtttttgcagcaaattattacgccttctccggccttcaataaggtactggcgctgttacgaaaaagcgagagttactggttggttggctatttactcgctcagtcaaccagcggcaacacgatgagaatgctgggagaggactatggcgtttcttatacccattttcgtcgtttgtgcagcagagcgttgggcggaaaagcgaagagtgaattacgaaactggcgtatggcgcaatcgctgctgaatagtgtagaaggccacgagaacatcacccaattagccgttaatcatggttactcatcgccttcacatttttctagtgagatcaaagagctgatcggcgtttcgccgcggaaattatcaaatattattcaattggcagacaaatga"
+	}
+}

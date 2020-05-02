@@ -2,8 +2,6 @@
 	"P1_PhlF": {
 		"name": "P1_PhlF",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0398,
-		"y": 0.2286,
 		"params": [
 			{
 				"name": "ymax",
@@ -26,8 +24,6 @@
 	"S3_SrpR": {
 		"name": "S3_SrpR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0541,
-		"y": 0.3999,
 		"params": [
 			{
 				"name": "ymax",
@@ -50,8 +46,6 @@
 	"H1_HlyIIR": {
 		"name": "H1_HlyIIR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1092,
-		"y": 1.9526,
 		"params": [
 			{
 				"name": "ymax",
@@ -74,8 +68,6 @@
 	"Q2_QacR": {
 		"name": "Q2_QacR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1376,
-		"y": 2.0443,
 		"params": [
 			{
 				"name": "ymax",
@@ -98,8 +90,6 @@
 	"const_TetR": {
 		"name": "const_TetR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 1.0588,
-		"y": 2.7175,
 		"params": [
 			{
 				"name": "ymax",
@@ -122,8 +112,6 @@
 	"js_QacR": {
 		"name": "js_QacR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.3345,
-		"y": 7.9876,
 		"params": [
 			{
 				"name": "ymax",
@@ -146,8 +134,6 @@
 	"P3_PhlF": {
 		"name": "P3_PhlF",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.3118,
-		"y": 1.0365,
 		"params": [
 			{
 				"name": "ymax",
@@ -170,8 +156,6 @@
 	"S1_SrpR": {
 		"name": "S1_SrpR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0167,
-		"y": 0.1006,
 		"params": [
 			{
 				"name": "ymax",
@@ -194,8 +178,6 @@
 	"S4_SrpR": {
 		"name": "S4_SrpR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1041,
-		"y": 0.6098,
 		"params": [
 			{
 				"name": "ymax",
@@ -218,8 +200,6 @@
 	"js2_PhlF": {
 		"name": "js2_PhlF",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.4882,
-		"y": 6.0722,
 		"params": [
 			{
 				"name": "ymax",
@@ -242,8 +222,6 @@
 	"js2_IcaRA": {
 		"name": "js2_IcaRA",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1192,
-		"y": 12.1165,
 		"params": [
 			{
 				"name": "ymax",
@@ -266,8 +244,6 @@
 	"B1_BM3R1": {
 		"name": "B1_BM3R1",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0265,
-		"y": 0.1977,
 		"params": [
 			{
 				"name": "ymax",
@@ -290,8 +266,6 @@
 	"R1_PsrA": {
 		"name": "R1_PsrA",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1298,
-		"y": 3.5545,
 		"params": [
 			{
 				"name": "ymax",
@@ -314,8 +288,6 @@
 	"an0_AmeR": {
 		"name": "an0_AmeR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1525,
-		"y": 10.966,
 		"params": [
 			{
 				"name": "ymax",
@@ -338,8 +310,6 @@
 	"js2_BetI": {
 		"name": "js2_BetI",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.4934,
-		"y": 10.0391,
 		"params": [
 			{
 				"name": "ymax",
@@ -362,8 +332,6 @@
 	"S2_SrpR": {
 		"name": "S2_SrpR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0623,
-		"y": 0.4501,
 		"params": [
 			{
 				"name": "ymax",
@@ -386,8 +354,6 @@
 	"B2_BM3R1": {
 		"name": "B2_BM3R1",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0412,
-		"y": 0.6599,
 		"params": [
 			{
 				"name": "ymax",
@@ -410,8 +376,6 @@
 	"js2_AmtR": {
 		"name": "js2_AmtR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1234,
-		"y": 5.0944,
 		"params": [
 			{
 				"name": "ymax",
@@ -434,8 +398,6 @@
 	"P2_PhlF": {
 		"name": "P2_PhlF",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1742,
-		"y": 0.6494,
 		"params": [
 			{
 				"name": "ymax",
@@ -458,8 +420,6 @@
 	"I1_IcaRA": {
 		"name": "I1_IcaRA",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0591,
-		"y": 2.8061,
 		"params": [
 			{
 				"name": "ymax",
@@ -482,8 +442,6 @@
 	"F1_AmeR": {
 		"name": "F1_AmeR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0891,
-		"y": 2.5193,
 		"params": [
 			{
 				"name": "ymax",
@@ -506,8 +464,6 @@
 	"js2_LitR": {
 		"name": "js2_LitR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0975,
-		"y": 9.0471,
 		"params": [
 			{
 				"name": "ymax",
@@ -530,8 +486,6 @@
 	"A1_AmtR": {
 		"name": "A1_AmtR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0485,
-		"y": 3.4374,
 		"params": [
 			{
 				"name": "ymax",
@@ -554,8 +508,6 @@
 	"L1_LitR": {
 		"name": "L1_LitR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0383,
-		"y": 1.5186,
 		"params": [
 			{
 				"name": "ymax",
@@ -578,8 +530,6 @@
 	"js2_BM3R1": {
 		"name": "js2_BM3R1",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0815,
-		"y": 2.5667,
 		"params": [
 			{
 				"name": "ymax",
@@ -602,8 +552,6 @@
 	"N1_LmrA": {
 		"name": "N1_LmrA",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0631,
-		"y": 2.5545,
 		"params": [
 			{
 				"name": "ymax",
@@ -626,8 +574,6 @@
 	"E1_BetI": {
 		"name": "E1_BetI",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1486,
-		"y": 4.7486,
 		"params": [
 			{
 				"name": "ymax",
@@ -650,8 +596,6 @@
 	"const_LacI": {
 		"name": "const_LacI",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.2272,
-		"y": 4.0404,
 		"params": [
 			{
 				"name": "ymax",
@@ -674,8 +618,6 @@
 	"js2_SrpR": {
 		"name": "js2_SrpR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1771,
-		"y": 4.8721,
 		"params": [
 			{
 				"name": "ymax",
@@ -698,8 +640,6 @@
 	"B3_BM3R1": {
 		"name": "B3_BM3R1",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.1123,
-		"y": 0.9805,
 		"params": [
 			{
 				"name": "ymax",
@@ -722,8 +662,6 @@
 	"Q1_QacR": {
 		"name": "Q1_QacR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.0702,
-		"y": 0.6115,
 		"params": [
 			{
 				"name": "ymax",
@@ -746,8 +684,6 @@
 	"js2_HlyIIR": {
 		"name": "js2_HlyIIR",
 		"equation": "ymin+(ymax-ymin)/(1.0+(x/K)^n)",
-		"x": 0.2156,
-		"y": 7.0678,
 		"params": [
 			{
 				"name": "ymax",

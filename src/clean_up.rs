@@ -99,18 +99,17 @@ pub struct ResponseFunction {
 	params: Vec<Param>,
 }
 
-#[derive(Clone)]
-pub struct FunctionProperties {
-	pub y: f32,
-	pub x: f32,
-	pub name: String,
-}
-
 #[derive(Deserialize, Serialize)]
 pub struct GateParts {
 	name: String,
 	parts: Vec<String>,
 	promoter: String,
+}
+
+#[derive(Deserialize, Serialize)]
+struct Point {
+	x: f32,
+	y: f32,
 }
 
 fn extract_parts() {
@@ -122,7 +121,7 @@ fn extract_parts() {
 		let json: Vec<Value> = from_str(&f).unwrap();
 		for item in json {
 			if item["collection"] == "parts" && item["kind"] != "SgRNA" {
-				let part: Part = from_value(item).unwrap();
+				let part: Part = from_value(item.clone()).unwrap();
 				parts.insert(part.name.to_owned(), part);
 			}
 		}
@@ -135,10 +134,10 @@ fn extract_parts() {
 	.unwrap();
 }
 
-fn extract_gates() {
+fn extract_groups() {
 	let dir = env::current_dir().unwrap();
 
-	let mut gates_map: HashMap<String, Vec<BGate>> = HashMap::new();
+	let mut group_map: HashMap<String, Vec<String>> = HashMap::new();
 	for entry in read_dir(format!("{}/datasets/raw/", dir.display())).unwrap() {
 		let f = read_to_string(entry.unwrap().path()).unwrap();
 		let json: Vec<Value> = from_str(&f).unwrap();
@@ -147,19 +146,18 @@ fn extract_gates() {
 				&& (item["system"] == "TetR" || item["system"] == "sensor")
 			{
 				let gate: BGate = from_value(item).unwrap();
-				let key = format!("{:?}", gate.kind);
-				if !gates_map.contains_key(&key) {
-					gates_map.insert(key.to_owned(), Vec::new());
+				if !group_map.contains_key(&gate.group) {
+					group_map.insert(gate.group.to_owned(), Vec::new());
 				}
-				let gs = gates_map.get_mut(&key).unwrap();
-				gs.push(gate);
+				let gs = group_map.get_mut(&gate.group).unwrap();
+				gs.push(gate.name);
 			}
 		}
 	}
 
 	write(
-		format!("{}/datasets/{}", dir.display(), "gates.json"),
-		to_string(&gates_map).unwrap(),
+		format!("{}/datasets/{}", dir.display(), "groups.json"),
+		to_string(&group_map).unwrap(),
 	)
 	.unwrap();
 }
@@ -222,37 +220,9 @@ fn extract_response_functions() {
 	.unwrap();
 }
 
-fn make_new_gates() {
-	let dir = env::current_dir().unwrap();
-	let gates_path = format!("{}/datasets/{}", dir.display(), "gates.json");
-	let gate_parts_path = format!("{}/datasets/{}", dir.display(), "gate_parts.json");
-
-	let gates_f = read_to_string(gates_path).unwrap();
-	let gates_parts_f = read_to_string(gate_parts_path).unwrap();
-
-	let gates: HashMap<String, Vec<BGate>> = serde_json::from_str(&gates_f).unwrap();
-	let gates_parts: HashMap<String, GateParts> = serde_json::from_str(&gates_parts_f).unwrap();
-
-	let mut new_gate_parts = HashMap::new();
-	for (name, gs) in gates {
-		let mut vc = Vec::new();
-		for g in gs {
-			vc.push(gates_parts.get(&g.name).unwrap());
-		}
-		new_gate_parts.insert(name, vc);
-	}
-
-	write(
-		format!("{}/datasets/{}", dir.display(), "gate_parts.json"),
-		to_string(&new_gate_parts).unwrap(),
-	)
-	.unwrap();
-}
-
 pub fn extract() {
 	extract_parts();
-	extract_gates();
+	extract_groups();
 	extract_gate_parts();
 	extract_response_functions();
-	make_new_gates();
 }
