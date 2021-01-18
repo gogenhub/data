@@ -1,0 +1,36 @@
+{
+	"gates": [
+		"TetR",
+		"LacI",
+		"AraC",
+		"PhlF",
+		"SrpR",
+		"BM3R1",
+		"BetI",
+		"AmeR",
+		"LitR",
+		"IcaRA",
+		"QacR",
+		"PsrA",
+		"LmrA",
+		"HlyIIR",
+		"AmtR"
+	],
+	"promoters": [
+		"pLac",
+		"pBAD",
+		"pSrpR",
+		"pPhlF",
+		"pBM3R1",
+		"pQacR",
+		"pTet",
+		"pAmtR",
+		"pBetI",
+		"pIcaRA",
+		"pHlyIIR",
+		"pLitR",
+		"pAmeR",
+		"pPsrA",
+		"pLmrA"
+	]
+}
